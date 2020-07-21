@@ -18,7 +18,7 @@ We have consulted three sources of information for each vendor to detect and val
 * inspecting relevant configuration files of running Kubernetes clustes
 * inspecting relevant vendor documentation
 
-The data is organized in a [feature mapping csv file](validation/mapping_of_e2e_tests_to_features.csv) that maps 161 k8s features, 44 feature gates and 28 admission controllers of k8s release v1.13 to the three sources of information. This accounts for a total of 233 mappings. An [extended Excel Sheet of this mapping file](mapping_of_e2e_tests_to_features.xlsx) contains explanations of what the admission controllers are about. Documentation of the other features can be found in Tables 2-10 and Table 28 of the [following technical report](https://arxiv.org/abs/2002.02806).
+The data is organized in a [feature mapping csv file](validation/mapping_of_e2e_tests_to_features.csv) that maps 162 k8s features, 66 feature gates and 28 admission controllers of k8s release v1.13 to the three sources of information. This accounts for a total of 256 mappings. An [extended Excel Sheet of this mapping file](mapping_of_e2e_tests_to_features.xlsx) contains explanations of what the admission controllers are about. Documentation of the other features can be found in Tables 2-10 and Table 28 of the [following technical report](https://arxiv.org/abs/2002.02806).
 
 ### End-to-end test results
 The data of the tests results is organized as follows:
