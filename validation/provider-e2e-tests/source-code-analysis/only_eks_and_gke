@@ -1,0 +1,18 @@
+./e2e/apps/network_partition.go:		if strings.Index(framework.TestContext.CloudConfig.NodeInstanceGroup, ",") >= 0 {
+./e2e/apps/network_partition.go:			framework.Failf("Test dose not support cluster setup with more than one MIG: %s", framework.TestContext.CloudConfig.NodeInstanceGroup)
+./e2e/autoscaling/autoscaling_timer.go:				nodeGroups := strings.Split(framework.TestContext.CloudConfig.NodeInstanceGroup, ",")
+./e2e/autoscaling/cluster_autoscaler_scalability.go:			for _, mig := range strings.Split(framework.TestContext.CloudConfig.NodeInstanceGroup, ",") {
+./e2e/autoscaling/cluster_size_autoscaling.go:		for _, mig := range strings.Split(framework.TestContext.CloudConfig.NodeInstanceGroup, ",") {
+./e2e/autoscaling/dns_autoscaling.go:		for _, mig := range strings.Split(framework.TestContext.CloudConfig.NodeInstanceGroup, ",") {
+./e2e/framework/google_compute.go:	instGroupName := strings.Split(TestContext.CloudConfig.NodeInstanceGroup, ",")[0]
+./e2e/framework/google_compute.go:		TestContext.CloudConfig.NodeInstanceGroup,
+./e2e/framework/google_compute.go:		fmt.Sprintf("--filter=name:%s", TestContext.CloudConfig.NodeInstanceGroup),
+./e2e/framework/google_compute.go:		TestContext.CloudConfig.NodeInstanceGroup)
+./e2e/framework/nodes_util.go:			TestContext.CloudConfig.NodeInstanceGroup)
+./e2e/framework/nodes_util.go:			Logf("MIG group %s using template: %s", TestContext.CloudConfig.NodeInstanceGroup, templ)
+./e2e/framework/test_context.go:	flag.StringVar(&cloudConfig.NodeInstanceGroup, "node-instance-group", "", "Name of the managed instance group for nodes. Valid only for gce, gke or aws. If there is more than one group: comma separated list of groups.")
+./e2e/lifecycle/resize_nodes.go:		if strings.Index(framework.TestContext.CloudConfig.NodeInstanceGroup, ",") >= 0 {
+./e2e/lifecycle/resize_nodes.go:			framework.Failf("Test dose not support cluster setup with more than one MIG: %s", framework.TestContext.CloudConfig.NodeInstanceGroup)
+./e2e/lifecycle/resize_nodes.go:			group = framework.TestContext.CloudConfig.NodeInstanceGroup
+./e2e/storage/regional_pd.go:	instanceGroupName := framework.TestContext.CloudConfig.NodeInstanceGroup
+

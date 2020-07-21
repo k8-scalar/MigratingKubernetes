@@ -1,0 +1,215 @@
+USER        PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root          1  0.2  0.0  38232  6240 ?        Ss   10:06   0:07 /sbin/init
+root          2  0.0  0.0      0     0 ?        S    10:06   0:00 [kthreadd]
+root          4  0.0  0.0      0     0 ?        I<   10:06   0:00 [kworker/0:0H]
+root          5  0.0  0.0      0     0 ?        I    10:06   0:01 [kworker/u256:0]
+root          6  0.0  0.0      0     0 ?        I<   10:06   0:00 [mm_percpu_wq]
+root          7  0.0  0.0      0     0 ?        S    10:06   0:00 [ksoftirqd/0]
+root          8  0.0  0.0      0     0 ?        I    10:06   0:02 [rcu_sched]
+root          9  0.0  0.0      0     0 ?        I    10:06   0:00 [rcu_bh]
+root         10  0.0  0.0      0     0 ?        S    10:06   0:00 [migration/0]
+root         11  0.0  0.0      0     0 ?        S    10:06   0:00 [watchdog/0]
+root         12  0.0  0.0      0     0 ?        S    10:06   0:00 [cpuhp/0]
+root         13  0.0  0.0      0     0 ?        S    10:06   0:00 [cpuhp/1]
+root         14  0.0  0.0      0     0 ?        S    10:06   0:00 [watchdog/1]
+root         15  0.0  0.0      0     0 ?        S    10:06   0:00 [migration/1]
+root         16  0.0  0.0      0     0 ?        S    10:06   0:00 [ksoftirqd/1]
+root         18  0.0  0.0      0     0 ?        I<   10:06   0:00 [kworker/1:0H]
+root         19  0.0  0.0      0     0 ?        S    10:06   0:00 [kdevtmpfs]
+root         20  0.0  0.0      0     0 ?        I<   10:06   0:00 [netns]
+root         21  0.0  0.0      0     0 ?        S    10:06   0:00 [rcu_tasks_kthre]
+root         22  0.0  0.0      0     0 ?        S    10:06   0:00 [kauditd]
+root         25  0.0  0.0      0     0 ?        S    10:06   0:00 [khungtaskd]
+root         26  0.0  0.0      0     0 ?        S    10:06   0:00 [oom_reaper]
+root         27  0.0  0.0      0     0 ?        I<   10:06   0:00 [writeback]
+root         28  0.0  0.0      0     0 ?        S    10:06   0:00 [kcompactd0]
+root         29  0.0  0.0      0     0 ?        SN   10:06   0:00 [ksmd]
+root         30  0.0  0.0      0     0 ?        SN   10:06   0:00 [khugepaged]
+root         31  0.0  0.0      0     0 ?        I<   10:06   0:00 [crypto]
+root         32  0.0  0.0      0     0 ?        I<   10:06   0:00 [kintegrityd]
+root         33  0.0  0.0      0     0 ?        I<   10:06   0:00 [kblockd]
+root         34  0.0  0.0      0     0 ?        I<   10:06   0:00 [ata_sff]
+root         35  0.0  0.0      0     0 ?        I<   10:06   0:00 [md]
+root         36  0.0  0.0      0     0 ?        I<   10:06   0:00 [edac-poller]
+root         37  0.0  0.0      0     0 ?        I<   10:06   0:00 [hv_vmbus_con]
+root         38  0.0  0.0      0     0 ?        I<   10:06   0:00 [hv_pri_chan]
+root         39  0.0  0.0      0     0 ?        I<   10:06   0:00 [hv_sub_chan]
+root         40  0.0  0.0      0     0 ?        I<   10:06   0:00 [devfreq_wq]
+root         41  0.0  0.0      0     0 ?        I<   10:06   0:00 [watchdogd]
+root         44  0.0  0.0      0     0 ?        S    10:06   0:00 [kswapd0]
+root         45  0.0  0.0      0     0 ?        I<   10:06   0:00 [kworker/u257:0]
+root         46  0.0  0.0      0     0 ?        S    10:06   0:00 [ecryptfs-kthrea]
+root         88  0.0  0.0      0     0 ?        I<   10:06   0:00 [kthrotld]
+root         89  0.0  0.0      0     0 ?        I<   10:06   0:00 [nfit]
+root         90  0.0  0.0      0     0 ?        S    10:06   0:00 [scsi_eh_0]
+root         91  0.0  0.0      0     0 ?        I<   10:06   0:00 [scsi_tmf_0]
+root         92  0.0  0.0      0     0 ?        I<   10:06   0:00 [storvsc_error_w]
+root         93  0.0  0.0      0     0 ?        S    10:06   0:00 [scsi_eh_1]
+root         94  0.0  0.0      0     0 ?        I<   10:06   0:00 [scsi_tmf_1]
+root         95  0.0  0.0      0     0 ?        I<   10:06   0:00 [storvsc_error_w]
+root         96  0.0  0.0      0     0 ?        S    10:06   0:00 [scsi_eh_2]
+root         97  0.0  0.0      0     0 ?        I<   10:06   0:00 [scsi_tmf_2]
+root         98  0.0  0.0      0     0 ?        I<   10:06   0:00 [storvsc_error_w]
+root         99  0.0  0.0      0     0 ?        S    10:06   0:00 [scsi_eh_3]
+root        100  0.0  0.0      0     0 ?        I<   10:06   0:00 [scsi_tmf_3]
+root        101  0.0  0.0      0     0 ?        I<   10:06   0:00 [storvsc_error_w]
+root        105  0.0  0.0      0     0 ?        I<   10:06   0:00 [nvme-wq]
+root        106  0.0  0.0      0     0 ?        S    10:06   0:00 [scsi_eh_4]
+root        107  0.0  0.0      0     0 ?        I<   10:06   0:00 [scsi_tmf_4]
+root        108  0.0  0.0      0     0 ?        I<   10:06   0:00 [kworker/0:1H]
+root        109  0.0  0.0      0     0 ?        S    10:06   0:00 [scsi_eh_5]
+root        110  0.0  0.0      0     0 ?        I<   10:06   0:00 [scsi_tmf_5]
+root        117  0.0  0.0      0     0 ?        I<   10:06   0:00 [ipv6_addrconf]
+root        126  0.0  0.0      0     0 ?        I<   10:06   0:00 [kstrp]
+root        310  0.0  0.0      0     0 ?        I<   10:06   0:00 [raid5wq]
+root        363  0.0  0.0      0     0 ?        I<   10:06   0:00 [kworker/1:1H]
+root        364  0.0  0.0      0     0 ?        S    10:06   0:00 [jbd2/sda1-8]
+root        365  0.0  0.0      0     0 ?        I<   10:06   0:00 [ext4-rsv-conver]
+root        440  0.0  0.0      0     0 ?        I<   10:06   0:00 [iscsi_eh]
+root        446  0.0  0.0      0     0 ?        I    10:06   0:00 [kworker/1:3]
+root        455  0.0  0.0      0     0 ?        I<   10:06   0:00 [rpciod]
+root        458  0.0  0.0      0     0 ?        I<   10:06   0:00 [xprtiod]
+root        460  0.0  0.0      0     0 ?        I<   10:06   0:00 [ib-comp-wq]
+root        461  0.0  0.0      0     0 ?        I<   10:06   0:00 [ib_mcast]
+root        462  0.0  0.0      0     0 ?        I<   10:06   0:00 [ib_nl_sa_wq]
+root        473  0.0  0.0 102968  1552 ?        Ss   10:06   0:00 /sbin/lvmetad -f
+root        474  0.0  0.0      0     0 ?        I<   10:06   0:00 [rdma_cm]
+root        478  0.0  0.0  43840  5140 ?        Ss   10:06   0:00 /lib/systemd/systemd-udevd
+root        545  0.0  0.0      0     0 ?        S    10:06   0:00 [hv_balloon]
+systemd+    581  0.0  0.0 100324  2508 ?        Ssl  10:06   0:00 /lib/systemd/systemd-timesyncd
+root        768  0.0  0.0      0     0 ?        I<   10:06   0:00 [mlx4]
+root        769  0.0  0.0      0     0 ?        I<   10:06   0:00 [mlx4_health]
+root        775  0.0  0.0      0     0 ?        I<   10:06   0:00 [mlx4_en]
+root       1093  0.0  0.0  16124   864 ?        Ss   10:06   0:00 /sbin/dhclient -1 -v -pf /run/dhclient.eth0.pid -lf /var/lib/dhcp/dhclient.eth0.leases -I -df /var/lib/dhcp/dhclient6.eth0.leases eth0
+root       1257  0.0  0.2  70604 21148 ?        Ss   10:06   0:00 /usr/bin/python3 -u /usr/sbin/waagent -daemon
+root       1409  0.8  0.3 230344 26516 ?        Rl   10:06   0:23 python3 -u bin/WALinuxAgent-2.2.42-py2.7.egg -run-exthandlers
+root       1412  0.0  0.0      0     0 ?        S    10:06   0:00 [jbd2/sdb1-8]
+root       1413  0.0  0.0      0     0 ?        I<   10:06   0:00 [ext4-rsv-conver]
+root       1568  0.0  0.0  20096  1208 ?        Ss   10:06   0:00 /lib/systemd/systemd-logind
+message+   1580  0.0  0.0  42896  3752 ?        Ss   10:06   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root       1585  0.0  0.0   5220   144 ?        Ss   10:06   0:00 /sbin/iscsid
+root       1586  0.0  0.0   5720  3516 ?        S<Ls 10:06   0:00 /sbin/iscsid
+unscd      1616  0.0  0.0  14964  1580 ?        Rs   10:06   0:02 /usr/sbin/nscd -d
+root       1628  0.0  0.0 160904  1524 ?        Ssl  10:06   0:00 /usr/bin/lxcfs /var/lib/lxcfs/
+root       1630  0.0  0.0  19280  2680 ?        Ss   10:06   0:00 /usr/sbin/cron -f
+root       1633  0.0  0.0 274488  6188 ?        Ssl  10:06   0:00 /usr/lib/accountsservice/accounts-daemon
+daemon     1638  0.0  0.0  17596  1088 ?        Ss   10:06   0:00 /usr/sbin/atd -f
+root       1639  0.0  0.0   4396  1272 ?        Ss   10:06   0:00 /usr/sbin/acpid
+syslog     1651  0.0  0.0 247968  3292 ?        Ssl  10:06   0:00 /usr/sbin/rsyslogd -n
+root       1681  0.0  0.2 164872 19564 ?        Ssl  10:06   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root       1709  0.0  0.0   4924   112 ?        Ss   10:06   0:00 /sbin/mdadm --monitor --pid-file /run/mdadm/monitor.pid --daemonise --scan --syslog
+root       1785  0.0  0.0  59212  5288 ?        Ss   10:06   0:00 /usr/sbin/sshd -D
+root       1788  0.0  0.0  19472   232 ?        Ss   10:06   0:00 /usr/sbin/irqbalance --pid=/var/run/irqbalance.pid
+root       1805  0.0  0.0   6024   664 ttyS0    Ss+  10:06   0:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyS0 vt220
+root       1807  0.0  0.0   6208   652 tty1     Ss+  10:06   0:00 /sbin/agetty --noclear tty1 linux
+root       1842  0.0  0.0 268632  5768 ?        Ssl  10:06   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root       2917  0.0  0.0  47624  3448 ?        Ss   10:07   0:00 /sbin/rpcbind -f -w
+statd      3052  0.0  0.0  35368  2876 ?        Ss   10:07   0:00 /sbin/rpc.statd --no-notify
+root       3411  2.6  1.3 780272 96484 ?        Ssl  10:07   1:13 /usr/bin/dockerd -H fd:// --storage-driver=overlay2 --bip=172.17.0.1/16
+root       3418  0.1  0.5 1342420 40708 ?       Ssl  10:07   0:04 containerd --config /var/run/docker/containerd/containerd.toml --log-level info
+root       3784  3.0  1.8 638896 132792 ?       Ssl  10:07   1:25 /usr/local/bin/kubelet --enable-server --node-labels=kubernetes.azure.com/role=agent,node-role.kubernetes.io/agent=,kubernetes.io/role=agent,agentpool=agentpool,storageprofile=managed,storagetier=Premium_LRS,kubernetes.azure.com/cluster=MC_cloud-shell-storage-westeurope_test-12_eastus --v=2 --volume-plugin-dir=/etc/kubernetes/volumeplugins --address=0.0.0.0 --allow-privileged=true --anonymous-auth=false --authorization-mode=Webhook --azure-container-registry-config=/etc/kubernetes/azure.json --cgroups-per-qos=true --client-ca-file=/etc/kubernetes/certs/ca.crt --cloud-config=/etc/kubernetes/azure.json --cloud-provider=azure --cluster-dns=10.0.0.10 --cluster-domain=cluster.local --enforce-node-allocatable=pods --event-qps=0 --eviction-hard=memory.available<750Mi,nodefs.available<10%,nodefs.inodesFree<5% --feature-gates=PodPriority=true,RotateKubeletServerCertificate=true --image-gc-high-threshold=85 --image-gc-low-threshold=80 --image-pull-progress-deadline=30m --keep-terminated-pod-volumes=false --kube-reserved=cpu=69m,memory=1638Mi --kubeconfig=/var/lib/kubelet/kubeconfig --max-pods=110 --network-plugin=kubenet --node-status-update-frequency=10s --non-masquerade-cidr=10.244.0.0/16 --pod-infra-container-image=aksrepos.azurecr.io/mirror/pause-amd64:3.1 --pod-manifest-path=/etc/kubernetes/manifests --pod-max-pids=-1 --protect-kernel-defaults=true --rotate-certificates=false --streaming-connection-idle-timeout=5m --tls-cert-file=/etc/kubernetes/certs/kubeletserver.crt --tls-cipher-suites=TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305,TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384,TLS_RSA_WITH_AES_256_GCM_SHA384,TLS_RSA_WITH_AES_128_GCM_SHA256 --tls-private-key-file=/etc/kubernetes/certs/kubeletserver.key
+root       3842  0.0  0.2  52072 14232 ?        Ss   10:07   0:00 /lib/systemd/systemd-journald
+root       4589  0.0  0.1 109028 10248 ?        Sl   10:07   0:00 containerd-shim -namespace moby -workdir /var/lib/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/4f33dff25f7bdd85f60bc9b88d2f11a87e0265524a3ea4254607b20955033f60 -address /var/run/docker/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root       4610  0.0  0.1 109028 11688 ?        Sl   10:07   0:00 containerd-shim -namespace moby -workdir /var/lib/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/93f866d13e33b881f19da45a0dbc899728b148054e58b64c6c909ea0e3394aab -address /var/run/docker/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root       4615  0.0  0.1 109028  9976 ?        Sl   10:07   0:00 containerd-shim -namespace moby -workdir /var/lib/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/dad0fb78cda8316249130b942592c9fc7bcc195c230a934bdeb803d9e52968e2 -address /var/run/docker/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root       4660  0.0  0.1 107620 12296 ?        Sl   10:07   0:00 containerd-shim -namespace moby -workdir /var/lib/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/32060cd1cc45a9737eb5f31da62e5b95d46ed9aaecf1959146dda7128a037fb3 -address /var/run/docker/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root       4693  0.0  0.0   1024     4 ?        Ss   10:07   0:00 /pause
+root       4708  0.0  0.0   1024     4 ?        Ss   10:07   0:00 /pause
+root       4721  0.0  0.0   1024     4 ?        Ss   10:07   0:00 /pause
+root       4814  0.0  0.0   1024     4 ?        Ss   10:07   0:00 /pause
+root       4867  0.0  0.1 109028 10072 ?        Sl   10:07   0:00 containerd-shim -namespace moby -workdir /var/lib/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/f010d92cdffd4b137a78aa685a3d2456e1c1b1f3ad8123bbba9215c3db0e784d -address /var/run/docker/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root       4903  0.0  0.1 107620 10188 ?        Sl   10:07   0:00 containerd-shim -namespace moby -workdir /var/lib/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/96ac6e20cb26796af06d9db8f2d92d48dae0b0fc6beac8bbf916f4178cb5350a -address /var/run/docker/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root       4946  0.0  0.0   1024     4 ?        Ss   10:07   0:00 /pause
+root       4992  0.0  0.0   1024     4 ?        Ss   10:07   0:00 /pause
+root       5075  0.0  0.1 107620 10012 ?        Sl   10:07   0:00 containerd-shim -namespace moby -workdir /var/lib/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/ba95d1127f348b047a022238624ef4e32fff35d9f79354642a681c16c7278db1 -address /var/run/docker/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root       5159  0.0  0.0   1024     4 ?        Ss   10:07   0:00 /pause
+root       5342  0.0  0.1 109028 10184 ?        Sl   10:07   0:00 containerd-shim -namespace moby -workdir /var/lib/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/da626270e03fd8cae47c4bf386d874dc952bf5d7f7e39e45cb584b5aad5e505f -address /var/run/docker/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root       5366  0.2  1.2 498572 87132 ?        Ssl  10:07   0:06 /hyperkube proxy --kubeconfig=/var/lib/kubelet/kubeconfig --cluster-cidr=10.244.0.0/16 --feature-gates=ExperimentalCriticalPodAnnotation=true --v=3
+root       5473  0.0  0.1 109028 10072 ?        Sl   10:07   0:00 containerd-shim -namespace moby -workdir /var/lib/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/e91b1cd48d1c5571f7550536bc85e6423e8d1413de783923ae202cb641cdf3cb -address /var/run/docker/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root       5509  0.0  0.0   1024     4 ?        Ss   10:07   0:00 /pause
+root       5685  0.0  0.1 109028 10076 ?        Sl   10:07   0:00 containerd-shim -namespace moby -workdir /var/lib/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/aa709dae583243d213233e802c63df975d9e19856791f026c3286a9f35aafcf0 -address /var/run/docker/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root       5724  0.0  0.0   1024     4 ?        Ss   10:07   0:00 /pause
+root       5780  0.0  0.1 107620 10188 ?        Sl   10:07   0:00 containerd-shim -namespace moby -workdir /var/lib/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/36e275f443be0edc60a5eeb142a7e54166051d63444b83383b6a4c6369729e91 -address /var/run/docker/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root       5849  0.0  0.1 109028 10076 ?        Sl   10:07   0:00 containerd-shim -namespace moby -workdir /var/lib/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/1cb3d7640b7e7a6be11fa551b26f0c6feb5f832bed9e5cc8de7e1528768f1538 -address /var/run/docker/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root       5865  0.0  0.0   1024     4 ?        Ss   10:07   0:00 /pause
+root       5911  0.0  0.0   1024     4 ?        Ss   10:07   0:00 /pause
+root       7064  0.0  0.1 107620 10188 ?        Sl   10:08   0:00 containerd-shim -namespace moby -workdir /var/lib/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/2fed5e2efb6e3a34cc7345f9eccabf18faaa5076162f2965838ce2078af6fee5 -address /var/run/docker/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+www-data   7092  0.0  0.0   2132   696 ?        Ss   10:08   0:00 /usr/bin/dumb-init /bin/bash /entrypoint.sh /nginx-ingress-controller --ingress-class=addon-http-application-routing --default-backend-service=kube-system/addon-http-application-routing-default-http-backend --configmap=kube-system/addon-http-application-routing-nginx-configuration --tcp-services-configmap=kube-system/addon-http-application-routing-tcp-services --udp-services-configmap=kube-system/addon-http-application-routing-udp-services --annotations-prefix=nginx.ingress.kubernetes.io --publish-service=kube-system/addon-http-application-routing-nginx-ingress
+www-data   7123  0.0  0.0   3672  2720 ?        Ss   10:08   0:00 /bin/bash /entrypoint.sh /nginx-ingress-controller --ingress-class=addon-http-application-routing --default-backend-service=kube-system/addon-http-application-routing-default-http-backend --configmap=kube-system/addon-http-application-routing-nginx-configuration --tcp-services-configmap=kube-system/addon-http-application-routing-tcp-services --udp-services-configmap=kube-system/addon-http-application-routing-udp-services --annotations-prefix=nginx.ingress.kubernetes.io --publish-service=kube-system/addon-http-application-routing-nginx-ingress
+www-data   7125  0.2  0.4 135372 32544 ?        Sl   10:08   0:07 /nginx-ingress-controller --ingress-class=addon-http-application-routing --default-backend-service=kube-system/addon-http-application-routing-default-http-backend --configmap=kube-system/addon-http-application-routing-nginx-configuration --tcp-services-configmap=kube-system/addon-http-application-routing-tcp-services --udp-services-configmap=kube-system/addon-http-application-routing-udp-services --annotations-prefix=nginx.ingress.kubernetes.io --publish-service=kube-system/addon-http-application-routing-nginx-ingress
+root       7141  0.0  0.1 107620 10076 ?        Sl   10:08   0:00 containerd-shim -namespace moby -workdir /var/lib/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/1071016a563613bc559208ba7aa69ea9935d5891c23c5919d430ca6a5afd4f0c -address /var/run/docker/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root       7160  0.0  0.3  35464 24752 ?        Ssl  10:08   0:01 /dashboard --insecure-bind-address=0.0.0.0 --bind-address=0.0.0.0
+root       7217  0.0  0.1 109028 10068 ?        Sl   10:08   0:00 containerd-shim -namespace moby -workdir /var/lib/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/5e67360f5f92dce92f86a5d4dce9c69b5d913086fcaeca795a29627e847c1a99 -address /var/run/docker/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root       7237  0.2  0.4 141984 33056 ?        Ssl  10:08   0:06 /coredns -conf /etc/coredns/Corefile
+root       7281  0.0  0.1 109028 10184 ?        Sl   10:08   0:00 containerd-shim -namespace moby -workdir /var/lib/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d320b01ebed53c4447ec2545002ce69670a56f7f5e30c62eab98446f9e79afab -address /var/run/docker/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root       7311  0.0  0.4  48968 33360 ?        Ssl  10:08   0:02 /metrics-server --source=kubernetes.summary_api:''
+www-data   7607  0.0  0.5  91220 36400 ?        S    10:08   0:00 nginx: master process /usr/sbin/nginx -c /etc/nginx/nginx.conf
+www-data   7642  0.0  0.6 362288 44060 ?        Sl   10:08   0:00 nginx: worker process
+www-data   7643  0.0  0.6 362360 44076 ?        Sl   10:08   0:00 nginx: worker process
+root       8384  0.0  0.0   5388  2404 ?        Ss   10:08   0:01 /usr/lib/linux-tools/4.15.0-1055-azure/hv_kvp_daemon -n
+root       8404  0.0  0.0   4356   788 ?        Ss   10:08   0:00 /usr/lib/linux-tools/4.15.0-1055-azure/hv_vss_daemon -n
+root       8632  0.0  0.1 109028 10076 ?        Sl   10:08   0:01 containerd-shim -namespace moby -workdir /var/lib/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/269860f25694b6a0fdd7a7e01bcd81adf62fc634ca18d4bb1d7fcbbfb87620dc -address /var/run/docker/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root       8652  0.0  0.0  18760  3444 ?        Ss   10:08   0:01 /bin/bash /lib/tunnel-front/run-tunnel-front.sh
+root       8717  0.0  0.1 109028 10072 ?        Sl   10:08   0:00 containerd-shim -namespace moby -workdir /var/lib/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/f77e444d20ab8d392eeb6aa27da6443a2ebf01b160e9e84bec89359e4f26f7cc -address /var/run/docker/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+nobody     8779  0.0  0.0   9092  5468 ?        Ssl  10:08   0:00 /server
+root       9163  0.0  0.1 109028 10076 ?        Sl   10:08   0:00 containerd-shim -namespace moby -workdir /var/lib/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/2c73897565d2518100a21c2918edd29fea392780c6d1b4daf1c9023ab0375ef2 -address /var/run/docker/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+nobody     9192  0.0  0.3  33748 21840 ?        Ssl  10:08   0:00 /cluster-proportional-autoscaler --namespace=kube-system --configmap=coredns-autoscaler --target=deployment/coredns --default-params={"ladder":{"coresToReplicas":[[1,2],[512,3],[1024,4],[2048,5]],"nodesToReplicas":[[1,2],[8,3],[16,4],[32,5]]}} --logtostderr=true --v=2
+root       9471  0.0  0.0  72296  5864 ?        S    10:08   0:00 /usr/sbin/sshd -D
+root       9576  0.0  0.1 107620 10072 ?        Sl   10:08   0:00 containerd-shim -namespace moby -workdir /var/lib/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/f9f2337af34aae558424cd6d9b98e6891270ddd5b24879733f7bc0141c632df5 -address /var/run/docker/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root       9626  0.0  0.3  42520 27796 ?        Ssl  10:08   0:00 /bin/external-dns --source=service --source=ingress --provider=azure --azure-resource-group=MC_cloud-shell-storage-westeurope_test-12_eastus --domain-filter=f1e80165fff44c5295e4.eastus.aksapp.io --annotation-filter=kubernetes.io/ingress.class=addon-http-application-routing --interval=3m0s
+root       9672  0.0  0.1 107620 10072 ?        Sl   10:08   0:00 containerd-shim -namespace moby -workdir /var/lib/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/5514c6f6af52a336f55019ac39597afd258cd6757ddd19b21c5aafc2f6cfea82 -address /var/run/docker/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root       9694  0.0  0.0  47604  3908 ?        Ss   10:08   0:01 ssh -i /tmp/tunnel_front/privateKey -oServerAliveInterval=1 -oServerAliveCountMax=5 -oControlPath=no -oControlMaster=no -oExitOnForwardFailure=yes -fNnT -C -R 9090:localhost:2222 cluster@test-12-dns-e2239238.hcp.eastus.azmk8s.io -p 9000
+root       9718  0.0  0.0   1024     4 ?        Ss   10:08   0:00 /pause
+root       9828  0.0  0.0 103868  7008 ?        Ss   10:08   0:00 sshd: apiserver [priv]
+1000       9841  0.0  0.0 103868  3440 ?        S    10:08   0:00 sshd: apiserver
+root       9842  0.0  0.1 109028 10072 ?        Sl   10:08   0:00 containerd-shim -namespace moby -workdir /var/lib/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/8927dfce34ac01a88cbf676e13fb545e9b99242d7d31a63a1015000a1811bf4b -address /var/run/docker/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root       9866  0.2  0.4 141984 29172 ?        Ssl  10:08   0:06 /coredns -conf /etc/coredns/Corefile
+root      10868  0.0  0.1 109028 10268 ?        Sl   10:08   0:01 containerd-shim -namespace moby -workdir /var/lib/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/e8f0e9b39b2442bc8a76600b618f9ac4a74e65f3d7eadeaa12794901e582477f -address /var/run/docker/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root      10882  0.0  0.1 109028 10076 ?        Sl   10:08   0:01 containerd-shim -namespace moby -workdir /var/lib/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/b5e5dfa554b4dacb330c650144549c444057c1723ce3d70a79380234705c91e3 -address /var/run/docker/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root      10905  0.0  0.0  18108  3028 ?        Ss   10:08   0:00 /bin/bash /opt/main.sh
+root      10928  0.0  0.0  18108  3028 ?        Ss   10:08   0:00 /bin/bash /opt/main.sh
+root      11247  0.0  0.0   6536   128 ?        S    10:08   0:00 inotifywait /etc/config/settings --daemon --recursive --outfile /opt/inotifyoutput.txt --event create,delete --format %e : %T --timefmt +%s
+root      11257  0.0  0.0   6536   128 ?        S    10:08   0:00 inotifywait /etc/config/settings --daemon --recursive --outfile /opt/inotifyoutput.txt --event create,delete --format %e : %T --timefmt +%s
+_apt      11929  0.0  0.0 256396  2684 ?        Ssl  10:09   0:00 /usr/sbin/rsyslogd
+_apt      12043  0.0  0.0 256396  2788 ?        Ssl  10:09   0:00 /usr/sbin/rsyslogd
+998       12250  0.5  0.6 1290096 45592 ?       Sl   10:09   0:14 /opt/microsoft/omsagent/ruby/bin/ruby /opt/microsoft/omsagent/bin/omsagent-bfec8d2b-852d-43f0-9932-430ac98f1ddd -d /var/opt/microsoft/omsagent/bfec8d2b-852d-43f0-9932-430ac98f1ddd/run/omsagent.pid --no-supervisor -o /var/opt/microsoft/omsagent/bfec8d2b-852d-43f0-9932-430ac98f1ddd/log/omsagent.log -c /etc/opt/microsoft/omsagent/bfec8d2b-852d-43f0-9932-430ac98f1ddd/conf/omsagent.conf
+998       12266  0.3  0.6 1210076 44936 ?       Sl   10:09   0:09 /opt/microsoft/omsagent/ruby/bin/ruby /opt/microsoft/omsagent/bin/omsagent-bfec8d2b-852d-43f0-9932-430ac98f1ddd -d /var/opt/microsoft/omsagent/bfec8d2b-852d-43f0-9932-430ac98f1ddd/run/omsagent.pid --no-supervisor -o /var/opt/microsoft/omsagent/bfec8d2b-852d-43f0-9932-430ac98f1ddd/log/omsagent.log -c /etc/opt/microsoft/omsagent/bfec8d2b-852d-43f0-9932-430ac98f1ddd/conf/omsagent.conf
+root      12413  0.0  0.0  26068  2472 ?        Ss   10:09   0:00 /usr/sbin/cron
+root      12461  0.0  0.6 158788 47164 ?        Sl   10:09   0:00 /opt/td-agent-bit/bin/td-agent-bit -c /etc/opt/microsoft/docker-cimprov/td-agent-bit-rs.conf -e /opt/td-agent-bit/bin/out_oms.so
+root      12482  0.0  0.0  26068  2384 ?        Ss   10:09   0:00 /usr/sbin/cron
+root      12486  0.0  0.5 133380 40848 ?        Sl   10:09   0:00 /opt/telegraf --config /etc/opt/microsoft/docker-cimprov/telegraf-rs.conf
+root      12522  0.0  0.7 151652 51024 ?        Sl   10:09   0:00 /opt/td-agent-bit/bin/td-agent-bit -c /etc/opt/microsoft/docker-cimprov/td-agent-bit.conf -e /opt/td-agent-bit/bin/out_oms.so
+root      12541  0.0  0.6 208168 48264 ?        Sl   10:09   0:01 /opt/telegraf --config /etc/opt/microsoft/docker-cimprov/telegraf.conf
+root      12572  0.0  0.0   4380   708 ?        S    10:09   0:00 sleep inf
+root      12588  0.0  0.0   4380   748 ?        S    10:09   0:00 sleep inf
+root      17546  0.0  0.0      0     0 ?        I<   10:09   0:00 [xfsalloc]
+root      17547  0.0  0.0      0     0 ?        I<   10:09   0:00 [xfs_mru_cache]
+root      37638  0.0  0.0      0     0 ?        I    10:21   0:00 [kworker/0:1]
+root      58252  0.0  0.0      0     0 ?        I    10:34   0:00 [kworker/u256:1]
+root      62344  0.0  0.0  11288  3044 ?        Ss   10:36   0:00 bash /usr/local/bin/health-monitor.sh container-runtime
+root      73360  0.0  0.0      0     0 ?        I    10:43   0:00 [kworker/1:0]
+root      73514  0.0  0.0      0     0 ?        I    10:43   0:00 [kworker/0:2]
+root      85347  0.0  0.0      0     0 ?        I    10:49   0:00 [kworker/u256:2]
+root      87569  0.0  0.0      0     0 ?        I    10:50   0:00 [kworker/0:0]
+root      87601  0.0  0.0      0     0 ?        I    10:50   0:00 [kworker/u256:3]
+root      87657  0.0  0.0      0     0 ?        I    10:50   0:00 [kworker/1:1]
+root      87659  0.0  0.0      0     0 ?        I    10:50   0:00 [kworker/1:2]
+root      88699  0.0  0.0      0     0 ?        I    10:51   0:00 [kworker/0:3]
+root      89177  0.0  0.1 109028 10084 ?        Sl   10:51   0:00 containerd-shim -namespace moby -workdir /var/lib/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/b464903d2614a142f18ac6901e7f1751f931415084a14ebd33ffa3a061690bc0 -address /var/run/docker/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root      89203  0.0  0.0   1024     4 ?        Ss   10:51   0:00 /pause
+root      89294  0.1  0.1 109028 10080 ?        Sl   10:51   0:00 containerd-shim -namespace moby -workdir /var/lib/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/a0a2a6b3c43c1845647ea0a7ecb73a3f561cd2cffe0fa36ac90a61a3267546c9 -address /var/run/docker/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root      89312  0.0  0.0   3868  3276 pts/0    Ss   10:51   0:00 bash
+root      92700  0.0  0.0  12832  5892 pts/0    S+   10:53   0:00 ssh -i id_rsa azureuser@10.240.0.4
+root      92701  0.0  0.0  99036  7040 ?        Ss   10:53   0:00 sshd: azureuser [priv]
+azureus+  92720  0.0  0.0  37220  5028 ?        Ss   10:53   0:00 /lib/systemd/systemd --user
+azureus+  92730  0.0  0.0  67916  2352 ?        S    10:53   0:00 (sd-pam)
+azureus+  92843  0.0  0.0  99036  3548 ?        S    10:53   0:00 sshd: azureuser@pts/0
+azureus+  92846  0.1  0.0  13016  4884 pts/0    Ss   10:53   0:00 -bash
+root      93371  0.0  0.0  57652  3832 pts/0    S    10:53   0:00 sudo su
+root      93375  0.0  0.0  59296  3276 pts/0    S    10:53   0:00 su
+root      93376  0.0  0.0  11456  3364 pts/0    S    10:53   0:00 bash
+root      93418  0.0  0.0   6008   812 ?        S    10:53   0:00 sleep 10
+root      93673  0.0  0.0  18760  2172 ?        S    10:53   0:00 /bin/bash /lib/tunnel-front/run-tunnel-front.sh
+root      93675  0.0  0.0  18760  2308 ?        S    10:53   0:00 /bin/bash /lib/tunnel-front/run-tunnel-front.sh
+root      93678  0.0  0.4  54316 34164 ?        Sl   10:53   0:00 kubectl --kubeconfig=/etc/kubernetes/kubeconfig/kubeconfig get secret tunnelfront --namespace=kube-system --output json --ignore-not-found
+root      93685  0.0  0.0  27636  1540 pts/0    R+   10:53   0:00 ps -aux

@@ -1,0 +1,29 @@
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: dev-cluster-3
+  region: eu-west-1
+
+nodeGroups:
+  - name: ng-1
+    instanceType: m4.large
+    desiredCapacity: 1
+    kubeletExtraConfig:
+        dynamicConfigFile: "/etc"
+        cpuManagerPolicy: "static"
+        kubeReserved:
+            cpu: "100m"
+            memory: "100Mi"
+            ephemeral-storage: "500Mi"
+        kubeReservedCgroup: "/kube-reserved"
+        systemReserved:
+            cpu: "100m"
+            memory: "100Mi"
+            ephemeral-storage: "500Mi"
+        evictionHard:
+            memory.available:  "200Mi"
+            nodefs.available: "10%"
+        featureGates:
+            DynamicKubeletConfig: true
+            RotateKubeletServerCertificate: true # has to be enabled, otherwise it will be disabled

@@ -1,0 +1,1 @@
+eksctl create cluster --name prod --version 1.13 --nodegroup-name standard-workers --node-type m4.large --nodes 3 --nodes-min 1 --nodes-max 3 --node-ami auto

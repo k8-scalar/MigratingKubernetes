@@ -1,0 +1,36 @@
+v1.14
+./test/e2e/network/service.go:          framework.SkipUnlessProviderIs("azure", "gke", "gce")
+./test/e2e/network/service.go:          framework.SkipUnlessProviderIs(framework.ProvidersWithSSH...)
+./test/e2e/network/service.go:          framework.SkipUnlessProviderIs("gce")
+./test/e2e/network/service.go:          framework.SkipUnlessProviderIs("gce", "gke")
+./test/e2e/network/service.go:          framework.SkipUnlessProviderIs("gce", "gke", "aws")
+
+./test/e2e/storage/drivers/in_tree.go:  framework.SkipUnlessProviderIs("aws")
+./test/e2e/storage/drivers/in_tree.go:  framework.SkipUnlessProviderIs("azure")
+./test/e2e/storage/drivers/in_tree.go:  framework.SkipUnlessProviderIs("gce", "gke")
+./test/e2e/storage/drivers/in_tree.go:  framework.SkipUnlessProviderIs("openstack")
+./test/e2e/storage/drivers/in_tree.go:  framework.SkipUnlessProviderIs("vsphere")
+
+./test/e2e/storage/volume_provisioning.go:                      framework.SkipUnlessProviderIs("aws")
+./test/e2e/storage/volume_provisioning.go:                      framework.SkipUnlessProviderIs("gce", "gke")
+./test/e2e/storage/volume_provisioning.go:                      framework.SkipUnlessProviderIs("gce", "gke", "aws")
+./test/e2e/storage/volume_provisioning.go:                      framework.SkipUnlessProviderIs("openstack", "gce", "aws", "gke", "vsphere", "azure")
+
+
+v1.13
+./network/service.go:           framework.SkipUnlessProviderIs("azure", "gke", "gce")
+./network/service.go:           framework.SkipUnlessProviderIs(framework.ProvidersWithSSH...)
+./network/service.go:           framework.SkipUnlessProviderIs("gce")
+./network/service.go:           framework.SkipUnlessProviderIs("gce", "gke")
+./network/service.go:           framework.SkipUnlessProviderIs("gce", "gke", "aws")
+
+./storage/drivers/in_tree.go:   framework.SkipUnlessProviderIs("aws")
+./storage/drivers/in_tree.go:   framework.SkipUnlessProviderIs("azure")
+./storage/drivers/in_tree.go:   framework.SkipUnlessProviderIs("gce", "gke")
+./storage/drivers/in_tree.go:   framework.SkipUnlessProviderIs("openstack")
+./storage/drivers/in_tree.go:   framework.SkipUnlessProviderIs("vsphere")
+
+./storage/volume_provisioning.go:                       framework.SkipUnlessProviderIs("aws")
+./storage/volume_provisioning.go:                       framework.SkipUnlessProviderIs("gce", "gke")
+./storage/volume_provisioning.go:                       framework.SkipUnlessProviderIs("gce", "gke", "aws")
+./storage/volume_provisioning.go: 

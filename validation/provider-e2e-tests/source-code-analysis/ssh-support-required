@@ -1,0 +1,22 @@
+v1.14
+./e2e/apps/daemon_restart.go:           framework.SkipUnlessProviderIs(framework.ProvidersWithSSH...)
+./e2e/l:./apps/daemon_restart.go:               framework.SkipUnlessProviderIs(framework.ProvidersWithSSH...)
+./e2e/lifecycle/reboot.go:              framework.SkipUnlessProviderIs(framework.ProvidersWithSSH...)
+./e2e/l:./lifecycle/reboot.go:          framework.SkipUnlessProviderIs(framework.ProvidersWithSSH...)
+./e2e/l:./network/service.go:           framework.SkipUnlessProviderIs(framework.ProvidersWithSSH...)
+./e2e/l:./node/kubelet.go:                              framework.SkipUnlessProviderIs(framework.ProvidersWithSSH...)
+./e2e/l:./node/node_problem_detector.go:                framework.SkipUnlessProviderIs(framework.ProvidersWithSSH...)
+./e2e/l:./node/ssh.go:          framework.SkipUnlessProviderIs(framework.ProvidersWithSSH...)
+./e2e/network/service.go:               framework.SkipUnlessProviderIs(framework.ProvidersWithSSH...)
+./e2e/node/kubelet.go:                          framework.SkipUnlessProviderIs(framework.ProvidersWithSSH...)
+./e2e/node/node_problem_detector.go:            framework.SkipUnlessProviderIs(framework.ProvidersWithSSH...)
+./e2e/node/ssh.go:              framework.SkipUnlessProviderIs(framework.ProvidersWithSSH...)
+
+v1.13:
+./apps/daemon_restart.go:               framework.SkipUnlessProviderIs(framework.ProvidersWithSSH...)
+./lifecycle/reboot.go:          framework.SkipUnlessProviderIs(framework.ProvidersWithSSH...)
+./network/service.go:           framework.SkipUnlessProviderIs(framework.ProvidersWithSSH...)
+./node/kubelet.go:                              framework.SkipUnlessProviderIs(framework.ProvidersWithSSH...)
+./node/node_problem_detector.go:                framework.SkipUnlessProviderIs(framework.ProvidersWithSSH...)
+./node/ssh.go:          framework.SkipUnlessProviderIs(framework.ProvidersWithSSH...)
+

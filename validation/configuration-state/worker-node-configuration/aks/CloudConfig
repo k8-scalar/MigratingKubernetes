@@ -1,0 +1,17 @@
+ApiEndpoint: "management.azure.com"
+ProjectID: "48142d6d-7a43-440c-88c5-ad7c85f2a266"
+Zone: "eastus"
+Region: "eastus"
+MultiZone: false
+MultiMaster: false
+Cluster: "test-12"
+MasterName: ""
+NodeInstanceGroup: "agentpool-availabilitySet-19250280"
+numNodes: 1
+ClusterIPRange: "10.0.0.0/8"
+ClusterTag: ""
+Network: "aks-vnet-19250280"
+ConfigFile: "/etc/kubernetes/azure.json" 
+NodeTag: ""
+MasterTag: ""
+        

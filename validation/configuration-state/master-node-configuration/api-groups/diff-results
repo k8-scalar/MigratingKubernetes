@@ -1,0 +1,40 @@
+
+pekkie$ diff aks-api-versions eks-api-versions
+13a14
+> autoscaling/v2beta2
+17d17
+< cloud.google.com/v1beta1
+19a20,21
+> crd.k8s.amazonaws.com/v1alpha1
+> events.k8s.io/v1beta1
+21,22d22
+< metrics.k8s.io/v1beta1
+< networking.gke.io/v1beta1
+26d25
+< nodemanagement.gke.io/v1alpha1
+30d28
+< scalingpolicy.kope.io/v1alpha1
+
+pekkie$ diff gke-api-versions aks-api-versions
+13a14,15
+> autoscaling/v2beta2
+> azmon.container.insights/v1
+17d18
+< cloud.google.com/v1beta1
+19a21
+> events.k8s.io/v1beta1
+22d23
+< networking.gke.io/v1beta1
+26d26
+< nodemanagement.gke.io/v1alpha1
+30d29
+< scalingpolicy.kope.io/v1alpha1
+
+pekkie$ diff aks-api-versions eks-api-versions
+15d14
+< azmon.container.insights/v1
+20a20
+> crd.k8s.amazonaws.com/v1alpha1
+23d22
+< metrics.k8s.io/v1beta1
+

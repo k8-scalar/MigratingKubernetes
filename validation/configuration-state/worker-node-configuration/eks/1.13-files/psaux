@@ -1,0 +1,110 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0 191176  5516 ?        Ss   Oct21   0:02 /usr/lib/systemd/systemd --switched-root --system --deserialize 21
+root         2  0.0  0.0      0     0 ?        S    Oct21   0:00 [kthreadd]
+root         4  0.0  0.0      0     0 ?        I<   Oct21   0:00 [kworker/0:0H]
+root         6  0.0  0.0      0     0 ?        I<   Oct21   0:00 [mm_percpu_wq]
+root         7  0.0  0.0      0     0 ?        S    Oct21   0:01 [ksoftirqd/0]
+root         8  0.0  0.0      0     0 ?        I    Oct21   0:19 [rcu_sched]
+root         9  0.0  0.0      0     0 ?        I    Oct21   0:00 [rcu_bh]
+root        10  0.0  0.0      0     0 ?        S    Oct21   0:00 [migration/0]
+root        11  0.0  0.0      0     0 ?        S    Oct21   0:00 [watchdog/0]
+root        12  0.0  0.0      0     0 ?        S    Oct21   0:00 [cpuhp/0]
+root        13  0.0  0.0      0     0 ?        S    Oct21   0:00 [cpuhp/1]
+root        14  0.0  0.0      0     0 ?        S    Oct21   0:00 [watchdog/1]
+root        15  0.0  0.0      0     0 ?        S    Oct21   0:00 [migration/1]
+root        16  0.0  0.0      0     0 ?        S    Oct21   0:01 [ksoftirqd/1]
+root        18  0.0  0.0      0     0 ?        I<   Oct21   0:00 [kworker/1:0H]
+root        19  0.0  0.0      0     0 ?        S    Oct21   0:00 [kdevtmpfs]
+root        20  0.0  0.0      0     0 ?        I<   Oct21   0:00 [netns]
+root        26  0.0  0.0      0     0 ?        S    Oct21   0:00 [xenbus]
+root        27  0.0  0.0      0     0 ?        S    Oct21   0:00 [xenwatch]
+root       119  0.0  0.0      0     0 ?        S    Oct21   0:00 [khungtaskd]
+root       183  0.0  0.0      0     0 ?        S    Oct21   0:00 [oom_reaper]
+root       184  0.0  0.0      0     0 ?        I<   Oct21   0:00 [writeback]
+root       186  0.0  0.0      0     0 ?        S    Oct21   0:00 [kcompactd0]
+root       187  0.0  0.0      0     0 ?        SN   Oct21   0:00 [ksmd]
+root       188  0.0  0.0      0     0 ?        SN   Oct21   0:00 [khugepaged]
+root       189  0.0  0.0      0     0 ?        I<   Oct21   0:00 [crypto]
+root       190  0.0  0.0      0     0 ?        I<   Oct21   0:00 [kintegrityd]
+root       192  0.0  0.0      0     0 ?        I<   Oct21   0:00 [kblockd]
+root       546  0.0  0.0      0     0 ?        I<   Oct21   0:00 [md]
+root       549  0.0  0.0      0     0 ?        I<   Oct21   0:00 [edac-poller]
+root       554  0.0  0.0      0     0 ?        I<   Oct21   0:00 [watchdogd]
+root       697  0.0  0.0      0     0 ?        S    Oct21   0:00 [kauditd]
+root       703  0.0  0.0      0     0 ?        S    Oct21   0:00 [kswapd0]
+root       835  0.0  0.0      0     0 ?        I<   Oct21   0:00 [kthrotld]
+root       886  0.0  0.0      0     0 ?        I<   Oct21   0:00 [kstrp]
+root       912  0.0  0.0      0     0 ?        I<   Oct21   0:00 [ipv6_addrconf]
+root      1606  0.0  0.0      0     0 ?        I<   Oct21   0:00 [ata_sff]
+root      1618  0.0  0.0      0     0 ?        S    Oct21   0:00 [scsi_eh_0]
+root      1622  0.0  0.0      0     0 ?        I<   Oct21   0:00 [scsi_tmf_0]
+root      1623  0.0  0.0      0     0 ?        S    Oct21   0:00 [scsi_eh_1]
+root      1624  0.0  0.0      0     0 ?        I<   Oct21   0:00 [scsi_tmf_1]
+root      1644  0.0  0.0      0     0 ?        I<   Oct21   0:00 [xfsalloc]
+root      1645  0.0  0.0      0     0 ?        I<   Oct21   0:00 [xfs_mru_cache]
+root      1657  0.0  0.0      0     0 ?        I<   Oct21   0:00 [xfs-buf/xvda1]
+root      1658  0.0  0.0      0     0 ?        I<   Oct21   0:00 [xfs-data/xvda1]
+root      1659  0.0  0.0      0     0 ?        I<   Oct21   0:00 [xfs-conv/xvda1]
+root      1660  0.0  0.0      0     0 ?        I<   Oct21   0:00 [xfs-cil/xvda1]
+root      1661  0.0  0.0      0     0 ?        I<   Oct21   0:00 [xfs-reclaim/xvd]
+root      1662  0.0  0.0      0     0 ?        I<   Oct21   0:00 [xfs-log/xvda1]
+root      1663  0.0  0.0      0     0 ?        I<   Oct21   0:00 [xfs-eofblocks/x]
+root      1664  0.0  0.0      0     0 ?        S    Oct21   0:16 [xfsaild/xvda1]
+root      1665  0.0  0.0      0     0 ?        I<   Oct21   0:00 [kworker/0:1H]
+root      1728  0.0  0.0  41200  6440 ?        Ss   Oct21   0:01 /usr/lib/systemd/systemd-journald
+root      1847  0.0  0.0 116824  2284 ?        Ss   Oct21   0:00 /usr/sbin/lvmetad -f
+root      2074  0.0  0.0  42484  3756 ?        Ss   Oct21   0:00 /usr/lib/systemd/systemd-udevd
+root      2500  0.0  0.0      0     0 ?        I<   Oct21   0:00 [ena]
+root      2768  0.0  0.0      0     0 ?        I<   Oct21   0:00 [ixgbevf]
+root      2955  0.0  0.0      0     0 ?        I<   Oct21   0:00 [rpciod]
+root      2956  0.0  0.0      0     0 ?        I<   Oct21   0:00 [xprtiod]
+root      2995  0.0  0.0  62248  2220 ?        S<sl Oct21   0:00 /sbin/auditd
+dbus      3067  0.0  0.0  58336  4016 ?        Ss   Oct21   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+rpc       3081  0.0  0.0  73828  3576 ?        Ss   Oct21   0:00 /sbin/rpcbind -w
+root      3100  0.0  0.0 100000  3100 ?        Ssl  Oct21   0:03 /usr/sbin/irqbalance --foreground --hintpolicy=subset
+root      3146  0.0  0.0  13144  1028 ?        Ss   Oct21   0:09 /sbin/rngd -f
+root      3167  0.0  0.0  26436  2948 ?        Ss   Oct21   0:00 /usr/lib/systemd/systemd-logind
+chrony    3196  0.0  0.0 120560  3964 ?        S    Oct21   0:01 /usr/sbin/chronyd
+root      3243  0.0  0.0 208356  3760 ?        Ssl  Oct21   0:00 /usr/sbin/gssproxy -D
+root      3493  0.0  0.0 105452  4216 ?        Ss   Oct21   0:00 /sbin/dhclient -q -lf /var/lib/dhclient/dhclient--eth0.lease -pf /var/run/dhclient-eth0.pid eth0
+root      3587  0.0  0.0 105452  3660 ?        Ss   Oct21   0:00 /sbin/dhclient -6 -nw -lf /var/lib/dhclient/dhclient6--eth0.lease -pf /var/run/dhclient6-eth0.pid eth0
+root      3767  0.0  0.0  88336  4848 ?        Ss   Oct21   0:00 /usr/libexec/postfix/master -w
+postfix   3769  0.0  0.0  88492  6912 ?        S    Oct21   0:00 qmgr -l -t unix -u
+root      3846  0.0  0.0      0     0 ?        I<   Oct21   0:00 [kworker/1:1H]
+root      3902  0.0  0.0 216632  5548 ?        Ssl  Oct21   0:02 /usr/sbin/rsyslogd -n
+root      3964  0.0  0.0 133036  3120 ?        Ss   Oct21   0:00 /usr/sbin/crond -n
+root      3974  0.0  0.0 117188  1708 tty1     Ss+  Oct21   0:00 /sbin/agetty --noclear tty1 linux
+root      3991  0.0  0.0 116836  1944 ttyS0    Ss+  Oct21   0:00 /sbin/agetty --keep-baud 115200,38400,9600 ttyS0 vt220
+root      4034  0.7  1.0 1199200 88484 ?       Ssl  Oct21   9:40 /usr/bin/dockerd
+root      4230  0.2  0.3 1184476 24920 ?       Ssl  Oct21   3:24 docker-containerd --config /var/run/docker/containerd/containerd.toml
+root      4249  0.0  0.0 110844  7124 ?        Ss   Oct21   0:00 /usr/sbin/sshd -D
+root      4592  2.0  1.1 1333220 90752 ?       Ssl  Oct21  26:20 /usr/bin/kubelet --node-ip=192.168.0.44 --node-labels=alpha.eksctl.io/cluster-name=prod,alpha.eksctl.io/nodegroup-name=standard-workers,alpha.eksctl.io/instance-id=i-0e099815614d78826 --max-pods=20 --register-node=true --register-with-taints= --allow-privileged=true --cloud-provider=aws --container-runtime=docker --network-plugin=cni --cni-bin-dir=/opt/cni/bin --cni-conf-dir=/etc/cni/net.d --pod-infra-container-image=602401143452.dkr.ecr.eu-west-1.amazonaws.com/eks/pause-amd64:3.1 --kubeconfig=/etc/eksctl/kubeconfig.yaml --config=/etc/eksctl/kubelet.yaml
+root      5156  0.0  0.0   8920  4112 ?        Sl   Oct21   0:01 docker-containerd-shim -namespace moby -workdir /var/lib/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/0f83db27f7ca765851e3afec222b63d16ef3b9d2463f5522e53324168f491d2a -address /var/run/docker/containerd/docker-containerd.sock -containerd-binary /usr/bin/docker-containerd -runtime-root /var/run/docker/runtime-runc
+root      5157  0.0  0.0   7512  4012 ?        Sl   Oct21   0:01 docker-containerd-shim -namespace moby -workdir /var/lib/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/b4add4ebe95d6bbab898253c7333d44cfb8b9c2dbd8d40a2134ce6c8608fd778 -address /var/run/docker/containerd/docker-containerd.sock -containerd-binary /usr/bin/docker-containerd -runtime-root /var/run/docker/runtime-runc
+root      5224  0.0  0.0   1024     4 ?        Ss   Oct21   0:00 /pause
+root      5232  0.0  0.0   1024     4 ?        Ss   Oct21   0:00 /pause
+root      5348  0.0  0.0   8920  4404 ?        Sl   Oct21   0:02 docker-containerd-shim -namespace moby -workdir /var/lib/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/8aa9f1d26d4e4fbf0af229da2bc0df6b7168a2f14e83d01686b21f17be0025c1 -address /var/run/docker/containerd/docker-containerd.sock -containerd-binary /usr/bin/docker-containerd -runtime-root /var/run/docker/runtime-runc
+root      5394  0.0  0.0   4280   732 ?        Ss   Oct21   0:00 /bin/sh -c kube-proxy --v=2 --config=/var/lib/kube-proxy-config/config
+root      5419  0.1  0.3 137112 30132 ?        Sl   Oct21   2:12 kube-proxy --v=2 --config=/var/lib/kube-proxy-config/config
+root      5659  0.0  0.0   7512  4152 ?        Sl   Oct21   0:02 docker-containerd-shim -namespace moby -workdir /var/lib/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/672fe6953e2dec3e97949b5be2e9d402e4ee1ffc3e2ba7c3970f093b954d1ebe -address /var/run/docker/containerd/docker-containerd.sock -containerd-binary /usr/bin/docker-containerd -runtime-root /var/run/docker/runtime-runc
+root      5691  0.0  0.0  11620  2564 ?        Ss   Oct21   0:00 bash /app/install-aws.sh
+root      5748  0.1  0.4 143032 36964 ?        Sl   Oct21   2:06 /app/aws-k8s-agent
+root      5818  0.0  0.0   8920  4324 ?        Sl   Oct21   0:01 docker-containerd-shim -namespace moby -workdir /var/lib/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/c76f5427735d03bf27b203b8669c23160757246f37d1862e1d3937f056e4c754 -address /var/run/docker/containerd/docker-containerd.sock -containerd-binary /usr/bin/docker-containerd -runtime-root /var/run/docker/runtime-runc
+root      5835  0.0  0.0   7512  4136 ?        Sl   Oct21   0:01 docker-containerd-shim -namespace moby -workdir /var/lib/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d7bdea44b0ffb3e704011ad218d71a123c7f117d18ba85846559691edccfdca2 -address /var/run/docker/containerd/docker-containerd.sock -containerd-binary /usr/bin/docker-containerd -runtime-root /var/run/docker/runtime-runc
+root      5895  0.0  0.0   1024     4 ?        Ss   Oct21   0:00 /pause
+root      5943  0.0  0.0   1024     4 ?        Ss   Oct21   0:00 /pause
+root      6070  0.0  0.0   8920  4584 ?        Sl   Oct21   0:02 docker-containerd-shim -namespace moby -workdir /var/lib/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d31a1f3472dbb7085a2c2fa7bcac9d7defbb3e1e959e9491f7af5565b43153a2 -address /var/run/docker/containerd/docker-containerd.sock -containerd-binary /usr/bin/docker-containerd -runtime-root /var/run/docker/runtime-runc
+root      6106  0.1  0.3  45028 30164 ?        Ssl  Oct21   2:26 /coredns -conf /etc/coredns/Corefile
+root      6114  0.0  0.0   7576  4472 ?        Sl   Oct21   0:01 docker-containerd-shim -namespace moby -workdir /var/lib/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d973c0e28ac4b2ee7cf83129991aedb64caa0a3226bb397730cdfed38c8d7c2e -address /var/run/docker/containerd/docker-containerd.sock -containerd-binary /usr/bin/docker-containerd -runtime-root /var/run/docker/runtime-runc
+root      6147  0.1  0.3  45028 31048 ?        Ssl  Oct21   2:18 /coredns -conf /etc/coredns/Corefile
+postfix   6914  0.0  0.0  88420  6796 ?        S    07:36   0:00 pickup -l -t unix -u
+root      8766  0.0  0.0      0     0 ?        I    08:01   0:00 [kworker/0:1]
+root     10204  0.0  0.0      0     0 ?        I    08:20   0:00 [kworker/u30:0]
+root     11986  0.0  0.0      0     0 ?        I    08:44   0:00 [kworker/1:1]
+root     12373  0.0  0.0      0     0 ?        I    08:49   0:00 [kworker/u30:2]
+root     12417  0.0  0.0      0     0 ?        I    08:49   0:00 [kworker/1:2]
+root     12828  0.0  0.0      0     0 ?        I    08:55   0:00 [kworker/1:0]
+root     13005  0.0  0.1 148528  8792 ?        Ss   08:57   0:00 sshd: root@pts/0
+root     13436  0.0  0.0 122184  3276 pts/0    Ss   08:57   0:00 -bash
+root     13460  0.0  0.0 162356  3792 pts/0    R+   08:57   0:00 ps -aux
+root     32023  0.0  0.0      0     0 ?        I    06:01   0:00 [kworker/0:2]

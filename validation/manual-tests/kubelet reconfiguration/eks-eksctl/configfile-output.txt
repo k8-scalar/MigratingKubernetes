@@ -1,0 +1,33 @@
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: dev-cluster-3
+  region: eu-west-1
+
+nodeGroups:
+  - name: ng-1
+    instanceType: m4.large
+    desiredCapacity: 1
+    kubeletExtraConfig:
+        dynamicConfigFile: "/etc"
+        cpuManagerPolicy: "static"
+        kubeReserved:
+            cpu: "100m"
+            memory: "100Mi"
+            ephemeral-storage: "500Mi"
+        kubeReservedCgroup: "/kube-reserved"
+        systemReserved:
+            cpu: "100m"
+            memory: "100Mi"
+            ephemeral-storage: "500Mi"
+        evictionHard:
+            memory.available:  "200Mi"
+            nodefs.available: "10%"
+        featureGates:
+            DynamicKubeletConfig: true
+            RotateKubeletServerCertificate: true # has to be enabled, otherwise it will be disabled
+
+OUTPUT:
+=======
+$ eksctl create cluster --config-file=configfile.txt                                                       [ℹ]  eksctl version 0.18.0                                                                                 [ℹ]  using region eu-west-1                                                                                [ℹ]  setting availability zones to [eu-west-1c eu-west-1b eu-west-1a]                                      [ℹ]  subnets for eu-west-1c - public:192.168.0.0/19 private:192.168.96.0/19                                [ℹ]  subnets for eu-west-1b - public:192.168.32.0/19 private:192.168.128.0/19                              [ℹ]  subnets for eu-west-1a - public:192.168.64.0/19 private:192.168.160.0/19                              [ℹ]  nodegroup "ng-1" will use "ami-02e306a823081708f" [AmazonLinux2/1.15]                                 [ℹ]  using Kubernetes version 1.15                                                                         [ℹ]  creating EKS cluster "dev-cluster-3" in "eu-west-1" region with un-managed nodes                      [ℹ]  1 nodegroup (ng-1) was included (based on the include/exclude rules)                                  [ℹ]  will create a CloudFormation stack for cluster itself and 1 nodegroup stack(s)                        [ℹ]  will create a CloudFormation stack for cluster itself and 0 managed nodegroup stack(s)                [ℹ]  if you encounter any issues, check CloudFormation console or try 'eksctl utils describe-stacks --region=eu-west-1 --cluster=dev-cluster-3'                                                                       [ℹ]  CloudWatch logging will not be enabled for cluster "dev-cluster-3" in "eu-west-1"                     [ℹ]  you can enable it with 'eksctl utils update-cluster-logging --region=eu-west-1 --cluster=dev-cluster-3'                                                                                                          [ℹ]  Kubernetes API endpoint access will use default of {publicAccess=true, privateAccess=false} for cluster "dev-cluster-3" in "eu-west-1"                                                                           [ℹ]  2 sequential tasks: { create cluster control plane "dev-cluster-3", create nodegroup "ng-1" }         [ℹ]  building cluster stack "eksctl-dev-cluster-3-cluster"                                                 [ℹ]  deploying stack "eksctl-dev-cluster-3-cluster"                                                        [ℹ]  building nodegroup stack "eksctl-dev-cluster-3-nodegroup-ng-1"                                        [ℹ]  1 error(s) occurred and cluster hasn't been created properly, you may wish to check CloudFormation console                                                                                                       [ℹ]  to cleanup resources, run 'eksctl delete cluster --region=eu-west-1 --name=dev-cluster-3'             []  validating generated KubeletConfiguration object: error unmarshaling JSON: while decoding JSON: json: unknown field "dynamicConfigFile"                                                                          Error: failed to create cluster "dev-cluster-3"

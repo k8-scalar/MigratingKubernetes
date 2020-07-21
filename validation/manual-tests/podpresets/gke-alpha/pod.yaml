@@ -1,0 +1,230 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  annotations:
+    kubernetes.io/limit-ranger: 'LimitRanger plugin set: cpu request for container
+      website'
+    podpreset.admission.kubernetes.io/podpreset-allow-database: "1984"
+  creationTimestamp: "2020-05-26T15:01:53Z"
+  labels:
+    app: website
+    role: frontend
+  managedFields:
+  - apiVersion: v1
+    fields:
+      f:metadata:
+        f:annotations:
+          .: null
+          f:kubernetes.io/limit-ranger: null
+          f:podpreset.admission.kubernetes.io/podpreset-allow-database: null
+        f:labels:
+          .: null
+          f:app: null
+          f:role: null
+      f:spec:
+        f:containers:
+          k:{"name":"website"}:
+            .: null
+            f:env:
+              .: null
+              k:{"name":"DB_PORT"}:
+                .: null
+                f:name: null
+                f:value: null
+            f:image: null
+            f:imagePullPolicy: null
+            f:name: null
+            f:ports:
+              .: null
+              k:{"containerPort":80,"protocol":"TCP"}:
+                .: null
+                f:containerPort: null
+                f:protocol: null
+            f:resources:
+              .: null
+              f:requests:
+                .: null
+                f:cpu: null
+            f:terminationMessagePath: null
+            f:terminationMessagePolicy: null
+            f:volumeMounts:
+              .: null
+              k:{"mountPath":"/cache"}:
+                .: null
+                f:mountPath: null
+                f:name: null
+              k:{"mountPath":"/var/run/secrets/kubernetes.io/serviceaccount"}:
+                .: null
+                f:mountPath: null
+                f:name: null
+                f:readOnly: null
+        f:dnsPolicy: null
+        f:enableServiceLinks: null
+        f:preemptionPolicy: null
+        f:priority: null
+        f:restartPolicy: null
+        f:schedulerName: null
+        f:securityContext: null
+        f:serviceAccount: null
+        f:serviceAccountName: null
+        f:terminationGracePeriodSeconds: null
+        f:volumes:
+          .: null
+          k:{"name":"cache-volume"}:
+            .: null
+            f:emptyDir: null
+            f:name: null
+          k:{"name":"kube-api-access-td6nb"}:
+            .: null
+            f:name: null
+            f:projected: null
+    manager: kubectl
+    operation: Update
+    time: "2020-05-26T15:01:53Z"
+  - apiVersion: v1
+    fields:
+      f:status:
+        f:conditions:
+          k:{"type":"ContainersReady"}:
+            .: null
+            f:lastProbeTime: null
+            f:type: null
+          k:{"type":"Initialized"}:
+            .: null
+            f:lastProbeTime: null
+            f:lastTransitionTime: null
+            f:status: null
+            f:type: null
+          k:{"type":"Ready"}:
+            .: null
+            f:lastProbeTime: null
+            f:type: null
+        f:hostIP: null
+        f:startTime: null
+    manager: kubelet
+    operation: Update
+    time: "2020-05-26T15:01:53Z"
+  - apiVersion: v1
+    fields:
+      f:spec:
+        f:tolerations: null
+        f:volumes:
+          k:{"name":"kube-api-access-td6nb"}:
+            f:projected:
+              f:sources: null
+      f:status:
+        f:conditions:
+          k:{"type":"ContainersReady"}:
+            f:lastTransitionTime: null
+            f:status: null
+          k:{"type":"Ready"}:
+            f:lastTransitionTime: null
+            f:status: null
+        f:containerStatuses: null
+        f:phase: null
+        f:podIP: null
+    manager: kubelet
+    operation: Update
+    time: "2020-05-26T15:01:55Z"
+  name: website
+  namespace: default
+  resourceVersion: "2514"
+  selfLink: /api/v1/namespaces/default/pods/website
+  uid: 4fd6450b-e995-4885-974f-e54a4430d84b
+spec:
+  containers:
+  - env:
+    - name: DB_PORT
+      value: "6379"
+    image: nginx
+    imagePullPolicy: Always
+    name: website
+    ports:
+    - containerPort: 80
+      protocol: TCP
+    resources:
+      requests:
+        cpu: 100m
+    terminationMessagePath: /dev/termination-log
+    terminationMessagePolicy: File
+    volumeMounts:
+    - mountPath: /cache
+      name: cache-volume
+    - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+      name: kube-api-access-td6nb
+      readOnly: true
+  dnsPolicy: ClusterFirst
+  enableServiceLinks: true
+  nodeName: gke-cluster-6-default-pool-2c992fcc-rc3n
+  preemptionPolicy: PreemptLowerPriority
+  priority: 0
+  restartPolicy: Always
+  schedulerName: default-scheduler
+  securityContext: {}
+  serviceAccount: default
+  serviceAccountName: default
+  terminationGracePeriodSeconds: 30
+  tolerations:
+  - effect: NoExecute
+    key: node.kubernetes.io/not-ready
+    operator: Exists
+    tolerationSeconds: 300
+  - effect: NoExecute
+    key: node.kubernetes.io/unreachable
+    operator: Exists
+    tolerationSeconds: 300
+  volumes:
+  - emptyDir: {}
+    name: cache-volume
+  - name: kube-api-access-td6nb
+    projected:
+      defaultMode: 420
+      sources:
+      - serviceAccountToken:
+          expirationSeconds: 3600
+          path: token
+      - configMap:
+          items:
+          - key: ca.crt
+            path: ca.crt
+          name: kube-root-ca.crt
+      - downwardAPI:
+          items:
+          - fieldRef:
+              apiVersion: v1
+              fieldPath: metadata.namespace
+            path: namespace
+status:
+  conditions:
+  - lastProbeTime: null
+    lastTransitionTime: "2020-05-26T15:01:53Z"
+    status: "True"
+    type: Initialized
+  - lastProbeTime: null
+    lastTransitionTime: "2020-05-26T15:01:55Z"
+    status: "True"
+    type: Ready
+  - lastProbeTime: null
+    lastTransitionTime: "2020-05-26T15:01:55Z"
+    status: "True"
+    type: ContainersReady
+  - lastProbeTime: null
+    lastTransitionTime: "2020-05-26T15:01:53Z"
+    status: "True"
+    type: PodScheduled
+  containerStatuses:
+  - containerID: docker://56ca51fcde151e2726b77b56a697bc50842a36886d7deb44efaf8e3ca440c3fb
+    image: nginx:latest
+    imageID: docker-pullable://nginx@sha256:8269a7352a7dad1f8b3dc83284f195bac72027dd50279422d363d49311ab7d9b
+    lastState: {}
+    name: website
+    ready: true
+    restartCount: 0
+    state:
+      running:
+        startedAt: "2020-05-26T15:01:54Z"
+  hostIP: 10.128.0.42
+  phase: Running
+  podIP: 10.20.1.3
+  qosClass: Burstable
+  startTime: "2020-05-26T15:01:53Z"

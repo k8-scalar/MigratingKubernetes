@@ -1,0 +1,132 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.3  0.1  99412  7124 ?        Ss   11:13   0:03 /usr/lib/systemd/systemd noresume noswap cros_efi
+root           2  0.0  0.0      0     0 ?        S    11:13   0:00 [kthreadd]
+root           4  0.0  0.0      0     0 ?        I<   11:13   0:00 [kworker/0:0H]
+root           6  0.0  0.0      0     0 ?        I<   11:13   0:00 [mm_percpu_wq]
+root           7  0.0  0.0      0     0 ?        S    11:13   0:00 [ksoftirqd/0]
+root           8  0.0  0.0      0     0 ?        I    11:13   0:00 [rcu_sched]
+root           9  0.0  0.0      0     0 ?        I    11:13   0:00 [rcu_bh]
+root          10  0.0  0.0      0     0 ?        S    11:13   0:00 [migration/0]
+root          11  0.0  0.0      0     0 ?        S    11:13   0:00 [watchdog/0]
+root          12  0.0  0.0      0     0 ?        S    11:13   0:00 [cpuhp/0]
+root          13  0.0  0.0      0     0 ?        S    11:13   0:00 [kdevtmpfs]
+root          14  0.0  0.0      0     0 ?        I<   11:13   0:00 [netns]
+root          15  0.0  0.0      0     0 ?        S    11:13   0:00 [khungtaskd]
+root          16  0.0  0.0      0     0 ?        S    11:13   0:00 [oom_reaper]
+root          17  0.0  0.0      0     0 ?        I<   11:13   0:00 [writeback]
+root          18  0.0  0.0      0     0 ?        S    11:13   0:00 [kcompactd0]
+root          19  0.0  0.0      0     0 ?        SN   11:13   0:00 [khugepaged]
+root          20  0.0  0.0      0     0 ?        I<   11:13   0:00 [crypto]
+root          21  0.0  0.0      0     0 ?        I<   11:13   0:00 [kintegrityd]
+root          22  0.0  0.0      0     0 ?        I<   11:13   0:00 [kblockd]
+root          23  0.0  0.0      0     0 ?        I<   11:13   0:00 [ata_sff]
+root          24  0.0  0.0      0     0 ?        I<   11:13   0:00 [watchdogd]
+root          25  0.0  0.0      0     0 ?        I    11:13   0:00 [kworker/0:1]
+root          26  0.0  0.0      0     0 ?        S    11:13   0:00 [kauditd]
+root          27  0.0  0.0      0     0 ?        S    11:13   0:00 [kswapd0]
+root          44  0.0  0.0      0     0 ?        I<   11:13   0:00 [kthrotld]
+root          45  0.0  0.0      0     0 ?        I<   11:13   0:00 [acpi_thermal_pm]
+root          46  0.0  0.0      0     0 ?        S    11:13   0:00 [scsi_eh_0]
+root          47  0.0  0.0      0     0 ?        I<   11:13   0:00 [scsi_tmf_0]
+root          49  0.0  0.0      0     0 ?        I<   11:13   0:00 [dm_bufio_cache]
+root          50  0.0  0.0      0     0 ?        I<   11:13   0:00 [ipv6_addrconf]
+root          51  0.0  0.0      0     0 ?        I    11:13   0:00 [kworker/u2:2]
+root          56  0.0  0.0      0     0 ?        I<   11:13   0:00 [kworker/0:1H]
+root          57  0.0  0.0      0     0 ?        I<   11:13   0:00 [kdmflush]
+root          58  0.0  0.0      0     0 ?        I<   11:13   0:00 [bioset]
+root          59  0.0  0.0      0     0 ?        I<   11:13   0:00 [kverityd]
+root          60  0.0  0.0      0     0 ?        I<   11:13   0:00 [bioset]
+root          61  0.0  0.0      0     0 ?        I<   11:13   0:00 [ext4-rsv-conver]
+root          89  0.0  0.2  28356  8960 ?        Ss   11:13   0:00 /usr/lib/systemd/systemd-journald
+root         120  0.0  0.0  12372  3368 ?        Ss   11:13   0:00 /usr/lib/systemd/systemd-udevd
+root         170  0.0  0.0      0     0 ?        S    11:13   0:00 [jbd2/sda8-8]
+root         171  0.0  0.0      0     0 ?        I<   11:13   0:00 [ext4-rsv-conver]
+root         181  0.0  0.0      0     0 ?        S    11:13   0:00 [jbd2/sda1-8]
+root         182  0.0  0.0      0     0 ?        I<   11:13   0:00 [ext4-rsv-conver]
+systemd+     215  0.0  0.0  91044  3668 ?        Ssl  11:13   0:00 /usr/lib/systemd/systemd-timesyncd
+root         270  0.1  0.1  12020  3908 ?        Ss   11:13   0:00 /usr/lib/systemd/systemd-logind
+message+     277  0.1  0.0  13172  3560 ?        Ss   11:13   0:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+systemd+     306  0.0  0.1  22524  4264 ?        Ss   11:13   0:00 /usr/lib/systemd/systemd-networkd
+systemd+     320  0.0  0.0  17584  3632 ?        Ss   11:13   0:00 /usr/lib/systemd/systemd-resolved
+root         325  0.0  0.9 971824 37200 ?        Ssl  11:13   0:00 /usr/bin/containerd
+root         328  0.0  0.0   8352  2028 ttyS0    Ss+  11:13   0:00 /sbin/agetty --keep-baud 115200,38400,9600 ttyS0 vt220
+root         338  0.0  0.1  15784  3800 ?        Ss   11:13   0:00 /usr/sbin/sshd -D -e
+root         385  0.0  0.2 412716 10404 ?        Ssl  11:13   0:00 /usr/sbin/device_policy_manager monitor
+root         387  0.0  0.0      0     0 ?        I    11:13   0:00 [kworker/0:4]
+root         388  0.0  0.2  26144  9004 ?        Ss   11:13   0:00 /usr/bin/metrics_daemon --nodaemon
+root         433  0.0  0.5  35456 19684 ?        Ss   11:13   0:00 /usr/bin/python2.7 /usr/lib/python-exec/python2.7/google_accounts_daemon
+root         436  0.0  0.4  34560 18916 ?        Ss   11:13   0:00 /usr/bin/python2.7 /usr/lib/python-exec/python2.7/google_ip_forwarding_daemon
+root         437  0.0  0.4  34524 18932 ?        Ss   11:13   0:00 /usr/bin/python2.7 /usr/lib/python-exec/python2.7/google_clock_skew_daemon
+root         962  1.8  2.4 895468 92992 ?        Ssl  11:14   0:15 /usr/bin/dockerd --registry-mirror=https://mirror.gcr.io --host=fd:// --containerd=/var/run/containerd/containerd.sock -p /var/run/docker.pid --iptables=false --ip-masq=false --log-level=warn --bip=169.254.123.1/24 --registry-mirror=https://mirror.gcr.io --log-driver=json-file --log-opt=max-size=10m --log-opt=max-file=5 --insecure-registry 10.0.0.0/8
+root        1041  0.0  0.7 666852 27096 ?        Ssl  11:14   0:00 /home/kubernetes/bin/node-problem-detector --v=2 --logtostderr --system-log-monitors=/home/kubernetes/node-problem-detector/config/kernel-monitor.json,/home/kubernetes/node-problem-detector/config/docker-monitor.json --custom-plugin-monitors=/home/kubernetes/node-problem-detector/config/kernel-monitor-counter.json,/home/kubernetes/node-problem-detector/config/systemd-monitor-counter.json --port=20256 --apiserver-override=https://35.239.172.162?inClusterConfig=false&auth=/var/lib/node-problem-detector/kubeconfig
+root        1078  0.0  0.0   9540  3292 ?        Ss   11:14   0:00 bash /home/kubernetes/bin/health-monitor.sh kubelet
+root        1080  0.0  0.0   9540  3148 ?        Ss   11:14   0:00 bash /home/kubernetes/bin/health-monitor.sh container-runtime
+root        1252  2.5  2.6 922544 98600 ?        Ssl  11:16   0:18 /home/kubernetes/bin/kubelet --v=2 --cloud-provider=gce --experimental-check-node-capabilities-before-mount=true --allow-privileged=true --experimental-mounter-path=/home/kubernetes/containerized_mounter/mounter --cert-dir=/var/lib/kubelet/pki/ --cni-bin-dir=/home/kubernetes/bin --kubeconfig=/var/lib/kubelet/kubeconfig --experimental-kernel-memcg-notification=true --max-pods=110 --network-plugin=kubenet --node-labels=beta.kubernetes.io/fluentd-ds-ready=true,cloud.google.com/gke-nodepool=default-pool,cloud.google.com/gke-os-distribution=cos --volume-plugin-dir=/home/kubernetes/flexvolume --bootstrap-kubeconfig=/var/lib/kubelet/bootstrap-kubeconfig --node-status-max-images=25 --registry-qps=10 --registry-burst=20 --config /home/kubernetes/kubelet-config.yaml --pod-sysctls=net.core.somaxconn=1024,net.ipv4.conf.all.accept_redirects=0,net.ipv4.conf.all.forwarding=1,net.ipv4.conf.all.route_localnet=1,net.ipv4.conf.default.forwarding=1,net.ipv4.ip_forward=1,net.ipv4.tcp_fin_timeout=60,net.ipv4.tcp_keepalive_intvl=75,net.ipv4.tcp_keepalive_probes=9,net.ipv4.tcp_keepalive_time=7200,net.ipv4.tcp_max_syn_backlog=128,net.ipv4.tcp_max_tw_buckets=16384,net.ipv4.tcp_syn_retries=6,net.ipv4.tcp_tw_reuse=0,net.netfilter.nf_conntrack_generic_timeout=600,net.netfilter.nf_conntrack_tcp_timeout_close_wait=3600,net.netfilter.nf_conntrack_tcp_timeout_established=86400
+root        1353  0.0  0.1 706492  6552 ?        Sl   11:16   0:00 containerd-shim -namespace moby -workdir /var/lib/containerd/io.containerd.runtime.v1.linux/moby/9f75eb6d7c596a497058db189fd3d4120feae7bbf2b326d984de4f24c1364178 -address /run/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root        1360  0.0  0.0      0     0 ?        I    11:16   0:00 [kworker/u2:3]
+root        1373  0.0  0.0   1024     4 ?        Ss   11:16   0:00 /pause
+root        1401  0.0  0.1 707900  5760 ?        Sl   11:16   0:00 containerd-shim -namespace moby -workdir /var/lib/containerd/io.containerd.runtime.v1.linux/moby/819538583bcb519edf5a18cee9151bcbcb5899f8eb58bcf4b1552d41c3b71272 -address /run/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root        1418  0.1  0.8 267720 33304 ?        Ssl  11:16   0:01 kube-proxy --master=https://35.239.172.162 --kubeconfig=/var/lib/kube-proxy/kubeconfig --cluster-cidr=10.8.0.0/14 --resource-container= --oom-score-adj=-998 --v=2 --feature-gates=DynamicKubeletConfig=false,NodeLease=false,TaintBasedEvictions=false,RotateKubeletServerCertificate=true,ExperimentalCriticalPodAnnotation=true --iptables-sync-period=1m --iptables-min-sync-period=10s --ipvs-sync-period=1m --ipvs-min-sync-period=10s
+root        1552  0.0  0.1 716096  6092 ?        Sl   11:16   0:00 containerd-shim -namespace moby -workdir /var/lib/containerd/io.containerd.runtime.v1.linux/moby/c741fc6e5e3b460de85a9ab742cc4a44199f4d4f0e287896f18c28c12da7177e -address /run/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root        1570  0.0  0.0   1024     4 ?        Ss   11:16   0:00 /pause
+root        1576  0.0  0.1 707900  6508 ?        Sl   11:16   0:00 containerd-shim -namespace moby -workdir /var/lib/containerd/io.containerd.runtime.v1.linux/moby/c73a0e3c2660ea5a4d489ca13f6e9b68084a8579ac5eb22905fea28ffcc1b6e9 -address /run/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root        1591  0.0  0.1 714688  6212 ?        Sl   11:16   0:00 containerd-shim -namespace moby -workdir /var/lib/containerd/io.containerd.runtime.v1.linux/moby/d50852c7ebb8a21bc0a030d5684bdd95d5a14e1a757668e02772f81e77da89a6 -address /run/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root        1593  0.0  0.1 707900  6216 ?        Sl   11:16   0:00 containerd-shim -namespace moby -workdir /var/lib/containerd/io.containerd.runtime.v1.linux/moby/80ad52c6ff58d5d996a25c3bdab66f0cbac709c5f1379b72a17219ff4b4992d8 -address /run/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root        1613  0.0  0.1 707900  7200 ?        Sl   11:16   0:00 containerd-shim -namespace moby -workdir /var/lib/containerd/io.containerd.runtime.v1.linux/moby/8a1de3306e4cf9037158fc499cbeea1cf43f9098e9752bf9af22aab7d246d626 -address /run/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root        1636  0.0  0.0   1024     4 ?        Ss   11:16   0:00 /pause
+root        1701  0.0  0.0   1024     4 ?        Ss   11:16   0:00 /pause
+root        1792  0.0  0.0   1024     4 ?        Ss   11:16   0:00 /pause
+root        1805  0.0  0.0   1024     4 ?        Ss   11:16   0:00 /pause
+root        2009  0.0  0.1 714688  5700 ?        Sl   11:16   0:00 containerd-shim -namespace moby -workdir /var/lib/containerd/io.containerd.runtime.v1.linux/moby/dfe0fed40009c7e9d0f1a8752efe9818c77192e8cffb2a8f205fe3a1d6c710a6 -address /run/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root        2051  0.0  0.6  39736 26456 ?        Ssl  11:16   0:00 /event-exporter -sink-opts=-stackdriver-resource-model=old
+root        2167  0.0  0.1 714688  6188 ?        Sl   11:16   0:00 containerd-shim -namespace moby -workdir /var/lib/containerd/io.containerd.runtime.v1.linux/moby/9f3a274fa7e14023e5da6dcd8318ecf1bae6bccf57a5c449458376dc7d1687ef -address /run/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+nobody      2185  0.0  0.4  32768 18612 ?        Ssl  11:16   0:00 /monitor --stackdriver-prefix=container.googleapis.com/internal/addons --api-override=https://monitoring.googleapis.com/ --source=event_exporter:http://localhost:80?whitelisted=stackdriver_sink_received_entry_count,stackdriver_sink_request_count,stackdriver_sink_successfully_sent_entry_count --pod-id=event-exporter-v0.2.4-5f88c66fb7-7t99j --namespace-id=kube-system
+root        2221  0.0  0.1 716096  6196 ?        Sl   11:16   0:00 containerd-shim -namespace moby -workdir /var/lib/containerd/io.containerd.runtime.v1.linux/moby/cecfa0dba5282dfee108e66c2951cc4a01ba15aa98cfffd2aeea700a35847371 -address /run/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root        2233  0.0  0.1 714688  6184 ?        Sl   11:16   0:00 containerd-shim -namespace moby -workdir /var/lib/containerd/io.containerd.runtime.v1.linux/moby/6383d8d42d040ff35921083b30d769ce0fbf19ff007fcf2a1758a663ecd08958 -address /run/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root        2274  0.0  0.0   1024     4 ?        Ss   11:16   0:00 /pause
+root        2280  0.0  0.0   4280  1428 ?        Ss   11:16   0:00 /bin/sh /scaler.sh --ds-name=fluentd-gcp-v3.2.0 --scaling-policy=fluentd-gcp-scaling-policy
+root        2349  0.0  0.1  16224  4636 ?        Ss   11:16   0:00 sshd: gke-654ea89aa629b49adc4b [priv]
+gke-654+    2360  0.0  0.0  16224  2764 ?        S    11:16   0:00 sshd: gke-654ea89aa629b49adc4b
+root        2440  0.0  0.1 714688  6120 ?        Sl   11:16   0:00 containerd-shim -namespace moby -workdir /var/lib/containerd/io.containerd.runtime.v1.linux/moby/eacddfa42e2ae46c2d9110ee47a6ee3ab2047ea9acbe93f4264f5ca31df26d32 -address /run/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+nobody      2476  0.0  0.5  32436 20044 ?        Ssl  11:16   0:00 /cluster-proportional-autoscaler --namespace=kube-system --configmap=kube-dns-autoscaler --target=Deployment/kube-dns --default-params={"linear":{"coresPerReplica":256,"nodesPerReplica":16,"preventSinglePointFailure":true}} --logtostderr=true --v=2
+root        2566  0.0  0.1 714688  5708 ?        Sl   11:16   0:00 containerd-shim -namespace moby -workdir /var/lib/containerd/io.containerd.runtime.v1.linux/moby/019428c2f677f0e774aaaff8c9e33fcb74ea278fbe8872e50a284525d4383994 -address /run/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root        2567  0.0  0.1 707900  7144 ?        Sl   11:16   0:00 containerd-shim -namespace moby -workdir /var/lib/containerd/io.containerd.runtime.v1.linux/moby/8b994005c00f7ab78e0b0820b0c1edb3c622146541b3d388fcabf5fb3167df91 -address /run/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root        2619  0.0  0.0   1024     4 ?        Ss   11:16   0:00 /pause
+nobody      2642  0.0  0.1   8060  4140 ?        Ssl  11:16   0:00 /server
+root        2791  0.0  0.1 707900  6388 ?        Sl   11:16   0:00 containerd-shim -namespace moby -workdir /var/lib/containerd/io.containerd.runtime.v1.linux/moby/ef554128ec247dd27ba4ea6d3876dc2966a67bd0c816a8d9a7922b8105b25e32 -address /run/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root        2809  0.2  0.8  47928 30916 ?        Ssl  11:16   0:01 /metrics-server --metric-resolution=30s --kubelet-port=10255 --deprecated-kubelet-completely-insecure=true --kubelet-preferred-address-types=InternalIP,Hostname,InternalDNS,ExternalDNS,ExternalIP
+root        2848  0.0  0.1 716096  6364 ?        Sl   11:16   0:00 containerd-shim -namespace moby -workdir /var/lib/containerd/io.containerd.runtime.v1.linux/moby/8985b16fceb101db8bedbbf9392fb525989d0dc1f1def369d4dd511d73b2e70b -address /run/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root        2865  0.0  0.4  27448 17628 ?        Ssl  11:16   0:00 /pod_nanny --config-dir=/etc/config --cpu=40m --extra-cpu=0.5m --memory=35Mi --extra-memory=4Mi --threshold=5 --deployment=metrics-server-v0.3.1 --container=metrics-server --poll-period=300000 --estimator=exponential --minClusterSize=5
+root        3003  0.0  0.1 707900  6292 ?        Sl   11:16   0:00 containerd-shim -namespace moby -workdir /var/lib/containerd/io.containerd.runtime.v1.linux/moby/75249afb3c875d9051af4988d57e084238e86e5171bbef6d0ba483bf7a38935a -address /run/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root        3020  0.0  0.0   1024     4 ?        Ss   11:16   0:00 /pause
+root        3049  0.0  0.1 716096  6380 ?        Sl   11:16   0:00 containerd-shim -namespace moby -workdir /var/lib/containerd/io.containerd.runtime.v1.linux/moby/439a243c600ad3e4c87938bad781bf0a9f288b7ea967443064d3603885d4ee68 -address /run/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root        3071  0.2  1.6 194788 62408 ?        Ssl  11:16   0:01 /opt/google-fluentd/embedded/bin/ruby /usr/sbin/google-fluentd
+root        3100  0.0  0.1 716096  6264 ?        Sl   11:16   0:00 containerd-shim -namespace moby -workdir /var/lib/containerd/io.containerd.runtime.v1.linux/moby/7b49e7d1d6dadc15a9f30beeeb1da8d0a57d2c787b0213e57edae29c37f99baf -address /run/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+nobody      3117  0.0  0.4  32768 18864 ?        Ssl  11:16   0:00 /monitor --stackdriver-prefix=container.googleapis.com/internal/addons --api-override=https://monitoring.googleapis.com/ --source=fluentd:http://localhost:24231?whitelisted=stackdriver_successful_requests_count,stackdriver_failed_requests_count,stackdriver_ingested_entries_count,stackdriver_dropped_entries_count --pod-id=fluentd-gcp-v3.2.0-8xb4j --namespace-id=kube-system
+root        3183  1.0  2.5 407248 98456 ?        Sl   11:16   0:07 /opt/google-fluentd/embedded/bin/ruby -Eascii-8bit:ascii-8bit /usr/sbin/google-fluentd --under-supervisor
+root        3187  0.0  0.1 714688  6404 ?        Sl   11:16   0:00 containerd-shim -namespace moby -workdir /var/lib/containerd/io.containerd.runtime.v1.linux/moby/8f44d343b617ed024459c8df6c89af8268f5b8f3a1038553c36be04d6ae9e09c -address /run/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root        3204  0.0  0.6 136084 26268 ?        Ssl  11:16   0:00 /kube-dns --domain=cluster.local. --dns-port=10053 --config-dir=/kube-dns-config --v=2
+root        3319  0.0  0.1 716096  6280 ?        Sl   11:16   0:00 containerd-shim -namespace moby -workdir /var/lib/containerd/io.containerd.runtime.v1.linux/moby/b3014a99d0eb29c0a9d8b5fa305fb0d309ca78d60ea34ae8f0a13e9522639e4d -address /run/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+nobody      3340  0.0  0.5  33824 22332 ?        Ssl  11:16   0:00 /monitor --source=kube-proxy:http://localhost:10249?whitelisted=sync_proxy_rules_latency_microseconds&metricsPrefix=container.googleapis.com/internal/addons --source=kubelet:http://localhost:10255?whitelisted=docker_operations,docker_operations_errors,runtime_operations,runtime_operations_errors,runtime_operations_latency_microseconds,pleg_relist_latency_microseconds,pod_start_latency_microseconds,rest_client_requests_total,storage_operation_duration_seconds,storage_operation_errors_total,run_podsandbox_duration_seconds,run_podsandbox_errors_total,storage_operation_status_count --stackdriver-prefix=container.googleapis.com/internal/nodes --api-override=https://monitoring.googleapis.com/
+root        3514  0.0  0.1 716096  6188 ?        Sl   11:16   0:00 containerd-shim -namespace moby -workdir /var/lib/containerd/io.containerd.runtime.v1.linux/moby/1077d45569d8cdaa5e0cbbcdb8da4eed8928255a7c9816cc4d4298469decfc78 -address /run/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root        3535  0.0  0.4 128968 18472 ?        Ssl  11:16   0:00 /dnsmasq-nanny -v=2 -logtostderr -configDir=/etc/k8s/dns/dnsmasq-nanny -restartDnsmasq=true -- -k --cache-size=1000 --no-negcache --log-facility=- --server=/cluster.local/127.0.0.1#10053 --server=/in-addr.arpa/127.0.0.1#10053 --server=/ip6.arpa/127.0.0.1#10053
+root        3564  0.0  0.0  13040  2084 ?        S    11:16   0:00 /usr/sbin/dnsmasq -k --cache-size=1000 --no-negcache --log-facility=- --server=/cluster.local/127.0.0.1#10053 --server=/in-addr.arpa/127.0.0.1#10053 --server=/ip6.arpa/127.0.0.1#10053
+root        3652  0.0  0.1 716096  6012 ?        Sl   11:16   0:00 containerd-shim -namespace moby -workdir /var/lib/containerd/io.containerd.runtime.v1.linux/moby/3d534e07a8b6c8a9677bb42543eea888e3932a0f4d256e78e276d62f83755e8a -address /run/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+nobody      3670  0.0  0.6 130360 24680 ?        Ssl  11:16   0:00 /sidecar --v=2 --logtostderr --probe=kubedns,127.0.0.1:10053,kubernetes.default.svc.cluster.local,5,SRV --probe=dnsmasq,127.0.0.1:53,kubernetes.default.svc.cluster.local,5,SRV
+root        3706  0.0  0.1 707900  6636 ?        Sl   11:16   0:00 containerd-shim -namespace moby -workdir /var/lib/containerd/io.containerd.runtime.v1.linux/moby/5823de165edd37b04d720f0f7cfb761f71d1ca496448f6e159f0618bcd6fe32b -address /run/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+nobody      3724  0.0  0.5  32768 19620 ?        Ssl  11:16   0:00 /monitor --source=kubedns:http://localhost:10054?whitelisted=probe_kubedns_latency_ms,probe_kubedns_errors,dnsmasq_misses,dnsmasq_hits --stackdriver-prefix=container.googleapis.com/internal/addons --api-override=https://monitoring.googleapis.com/ --pod-id=kube-dns-79868f54c5-7nszd --namespace-id=kube-system --v=2
+root        3860  0.0  0.1 707900  6340 ?        Sl   11:16   0:00 containerd-shim -namespace moby -workdir /var/lib/containerd/io.containerd.runtime.v1.linux/moby/4dc122f1bead1dd63fbfb58abcd652b8134afa192d710e61aba4e7743d8d52c0 -address /run/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root        3879  0.0  0.0   1024     4 ?        Ss   11:16   0:00 /pause
+root        3963  0.0  0.1 707900  6364 ?        Sl   11:16   0:00 containerd-shim -namespace moby -workdir /var/lib/containerd/io.containerd.runtime.v1.linux/moby/0aae9356e9b99447d85bf674e77740f90671697a704d77b8895c494e9814fa18 -address /run/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+nobody      3980  0.0  1.1  62856 42380 ?        Ssl  11:16   0:00 /heapster --source=kubernetes.summary_api:?host_id_annotation=container.googleapis.com/instance_id --sink=stackdriver:?cluster_name=standard-cluster-1&use_old_resources=true&use_new_resources=false&min_interval_sec=100&batch_export_timeout_sec=110&cluster_location=us-central1-a
+root        4012  0.0  0.1 716096  6076 ?        Sl   11:16   0:00 containerd-shim -namespace moby -workdir /var/lib/containerd/io.containerd.runtime.v1.linux/moby/e6ac3aa4152af818dde54e01f69c4465c6dcae49f0080b714e5aad550979342d -address /run/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+nobody      4032  0.0  0.5  32768 20524 ?        Ssl  11:16   0:00 /monitor --source=heapster:http://localhost:8082?whitelisted=stackdriver_requests_count,stackdriver_timeseries_count --stackdriver-prefix=container.googleapis.com/internal/addons --api-override=https://monitoring.googleapis.com/ --pod-id=heapster-v1.6.1-cf889d599-r45sq --namespace-id=kube-system
+root        4061  0.0  0.1 707900  6276 ?        Sl   11:16   0:00 containerd-shim -namespace moby -workdir /var/lib/containerd/io.containerd.runtime.v1.linux/moby/ebbd4d9002e2152f96e75f94d46e3fd0f90bf719be523022c7a3619379ff9432 -address /run/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root        4080  0.0  0.5  30480 19344 ?        Ssl  11:16   0:00 /pod_nanny --config-dir=/etc/config --cpu=10m --extra-cpu=0.5m --memory=100Mi --extra-memory=4Mi --threshold=5 --deployment=heapster-v1.6.1 --container=heapster --poll-period=300000 --estimator=exponential --minClusterSize=5
+root        5636  0.0  0.1  16220  4804 ?        Ss   11:23   0:00 sshd: eddy_truyen [priv]
+eddy_tr+    5642  0.0  0.0  16220  2700 ?        S    11:23   0:00 sshd: eddy_truyen@pts/0
+eddy_tr+    5643  0.0  0.0   9532  3564 pts/0    Ss   11:23   0:00 -bash
+root        6560  0.0  0.0   4188   652 ?        S    11:27   0:00 sleep 60
+root        6779  0.0  0.0  11612  1172 ?        S    11:28   0:00 /usr/bin/coreutils --coreutils-prog-shebang=sleep /usr/bin/sleep 10
+root        6797  0.0  0.0  11612  1176 ?        S    11:28   0:00 /usr/bin/coreutils --coreutils-prog-shebang=sleep /usr/bin/sleep 10
+eddy_tr+    6798  0.0  0.0  11132  2376 pts/0    R+   11:28   0:00 ps -aux

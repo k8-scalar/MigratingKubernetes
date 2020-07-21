@@ -1,0 +1,37 @@
+apiVersion: settings.k8s.io/v1alpha1
+kind: PodPreset
+metadata:
+  creationTimestamp: "2020-05-26T14:59:48Z"
+  generation: 1
+  managedFields:
+  - apiVersion: settings.k8s.io/v1alpha1
+    fields:
+      f:spec:
+        f:env: null
+        f:selector:
+          f:matchLabels:
+            .: null
+            f:role: null
+        f:volumeMounts: null
+        f:volumes: null
+    manager: kubectl
+    operation: Update
+    time: "2020-05-26T14:59:48Z"
+  name: allow-database
+  namespace: default
+  resourceVersion: "1984"
+  selfLink: /apis/settings.k8s.io/v1alpha1/namespaces/default/podpresets/allow-database
+  uid: 5ece3126-36cc-4782-9a54-5ddec4b829c3
+spec:
+  env:
+  - name: DB_PORT
+    value: "6379"
+  selector:
+    matchLabels:
+      role: frontend
+  volumeMounts:
+  - mountPath: /cache
+    name: cache-volume
+  volumes:
+  - emptyDir: {}
+    name: cache-volume

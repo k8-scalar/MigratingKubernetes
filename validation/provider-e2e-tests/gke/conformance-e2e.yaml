@@ -1,0 +1,90 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: conformance
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  labels:
+    component: conformance
+  name: conformance-serviceaccount
+  namespace: conformance
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  labels:
+    component: conformance
+  name: conformance-serviceaccount-role
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: conformance-serviceaccount
+subjects:
+- kind: ServiceAccount
+  name: conformance-serviceaccount
+  namespace: conformance
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  labels:
+    component: conformance
+  name: conformance-serviceaccount
+rules:
+- apiGroups:
+  - '*'
+  resources:
+  - '*'
+  verbs:
+  - '*'
+- nonResourceURLs:
+  - '/metrics'
+  - '/logs'
+  - '/logs/*'
+  verbs:
+  - 'get'
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: e2e-conformance-test
+  namespace: conformance
+spec:
+  containers:
+  - name: conformance-container
+    image: decomads/kube-conformance-gke:v1.13
+    imagePullPolicy: Always
+    env:
+    - name: E2E_FOCUS
+      value: "Services|In-tree Volumes"
+    - name: E2E_SKIP
+      value: "Alpha|\\[Flaky\\]"
+    - name: E2E_PROVIDER
+      value: "gke"
+    - name: GCE_API_ENDPOINT
+      value: "https://www.googleapis.com/"
+    - name: GCE_PROJECT
+      value: "<name of GCE project>"
+    - name: GCE_ZONE
+      value: "us-central1-a"
+    - name: GCE_REGION
+      value: "us-central1"
+    - name: GKE_CLUSTER
+      value: "standard-cluster-2"
+    - name: E2E_PARALLEL
+      value: "false"
+    - name: E2E_VERBOSITY
+      value: "4"
+    command: ["/run_e2e.sh"]
+    volumeMounts:
+    - name: output-volume
+      mountPath: /tmp/results
+  volumes:
+  - name: output-volume
+    hostPath:
+      path: /tmp/results
+  restartPolicy: Never
+  serviceAccountName: conformance-serviceaccount
