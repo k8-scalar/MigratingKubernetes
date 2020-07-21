@@ -10,7 +10,7 @@ The Cloud Native Computing Foundation (CNCF) has launched a [certification progr
 As conformance tests constitute only a small part of the total e2e testing suite, we postulate that not all features of the open-source Kubernetes distribution are enforced by this certification programme. 
 
 As such, we have explored feature incompatibilities between three major vendors of the hosted product type: Azure Kubernetes Service (AKS), AWS' Elastic Kubernetes Service (EKS) and Google Kubernetes Service (GKE). 
-We have found that 29 out of 161 documented features of the open-source k8s release v1.13 are not supported by at least one of these vendors.
+We have found that 30 out of 162 documented features of the open-source k8s release v1.13 are not supported by the default Kubernetes platform configuration of these vendors.
 
 ## Data 
 We have consulted three sources of information for each vendor to detect and validate these feature incompatibilities:
@@ -111,20 +111,20 @@ The [OverviewMappings.xlsx file](validation/OverviewOfMappings.xlsx) presents a 
 These numbers are collected separately for the various functional aspects of the [aforementioned taxonomy report](https://arxiv.org/abs/2002.02806); these functional aspects are also listed in the first column of the Summary Excel sheet.
 
 
-### Quantitative analysis for paper findings
-Table 6 and Table 7 of the paper present in their last rows summarizing statistics. These statistics are computed by the following two sheets for Table 6 and Table 7 respectively
+### Migration guidance framework
+Table 8 and Table 9 of the paper present in their last rows summarizing statistics. These statistics are computed by the following two sheets for Table 8 and Table 9 respectively:
 
-A [quantative analysis sheet for Table 6](QuantitativeAnalysisTable6.xlsx) allows to compute summarizing statistics, which are presented in the last row of Table 6. It also presents for each sub-aspect the number of features with matching tests, including those without valid test results but they can be potentially improved. These numbers allow thus to perform a cost-benefits analysis of improving existing test modules in order to achieve a better feature coverage. The main findings have been summarized in Section 3.10
+A [quantative analysis sheet for Table 8](QuantitativeAnalysisTable8.xlsx) allows to compute summarizing statistics, which are presented in the last row of Table 6. It also presents for each sub-aspect the number of features with matching tests, including those without valid test results but they can be potentially improved. These numbers allow thus to perform a cost-benefits analysis of improving existing test modules in order to achieve a better feature coverage. The main findings have been summarized in Section 3.10
 
-A [quantative analysis sheet for Table 7](QuantitativeAnalysisTable7.xlsx) allows to compute a summary of the migration guidance framework by answering questions about about the number of feature incompatibilities that belong to a particular class of migration ease. These classses of migration ease can be distinguished by a simple scoring system that indicates the ese of migration from a source vendor to a target vendor: 
-  * 5: automated migration of k8s resources for all features of the sub-aspect 
-  * 4: automated migration of k8s resources for some features of the sub-aspect and for the other features automated, vendor-agnostic reconfiguration is possible
-  * 3 automated, vendor agnostic reconfiguration for all features is possible
-  * 2 automated, vendor agnostic reconfiguration for some features is possible 
-  * 1 custom, vendor-specific translation of input/output data is possible for all or some features
-  * 0 none of the features of the sub-aspect are supported the by target vendor 
-  * – none of the features of the sub-aspect are supported by the source vendor
+A [quantative analysis sheet for Table 9](QuantitativeAnalysisTable9.xlsx) allows to compute a summary of the migration guidance framework by answering questions about about the number of feature incompatibilities that belong to a particular class of migration ease. These classses of migration ease can be distinguished by a simple scoring system that indicates the ease of migration from a source vendor to a target vendor: 
+  * 5: For all subsets of features supported by the source vendor, automated migration is possible
+  * 4: For all subsets of features supported by the source vendor, automated migration or vendor-agnostic reconfiguration is possible
+  * 3: For all subsets of features supported by the source vendor, only vendor-agnostic reconfiguration is possible  
+  * 2: For some subsets of features supported by the source vendor, automated migration or vendor agnostic reconfiguration is possible
+  * 1: Only custom, vendor-specific translation of input/output data is possible for some subsets of features supported by the source vendor
+  * 0: None of the feature subsets supported by the source vendor are supported by the target vendor 
+  * –: None of the feature subsets of the sub-aspect are sup-ported by the source vendor
 
-The last rows of Table 7 show then the number of occurences of scores with a particular range (e.g. The `number of scores <=2` indicate the number of difficult feature incompatibilities for which no complete vendor-agnostic approach exists, The `number of scores >=4` indicate the number of functional sub-aspects of the taxonomy where a few feature incompatibilities exist -- if any -- and these can all be bridged by means of a vendor-agnostic approach. The presented information allows to improve the state-of-the-art approaches for migrating or federating container platforms across cloud providers with better support for feature compatibility.
+The last rows of Table 9 show then the number of occurences of scores with a particular range (e.g. The `number of scores <=2` indicate the number of difficult feature incompatibilities for which no complete vendor-agnostic approach exists, The `number of scores >=4` indicate the number of functional sub-aspects of the taxonomy where a few feature incompatibilities exist -- if any -- and these can all be bridged by means of a vendor-agnostic approach. The presented information allows to improve the state-of-the-art approaches for migrating or federating container platforms across cloud providers with better support for feature compatibility.
 
 
