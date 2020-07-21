@@ -106,11 +106,6 @@ The (color) legend is as follows:
   * Bold font: A matching test produces invalid results, which are moreover inconsistent with the stated vendor documentation
   * (?,?) : There is no vendor documentation available
 
-
-The [OverviewMappings.xlsx file](validation/OverviewOfMappings.xlsx) presents a quantative analysis of this Summary Excel sheet. It counts the subset of mappings to matching tests with valid results (`features with good mappings` row), subset of matching tests that produce `false negatives` or are `skipped`, and subset of potentially valid matching tests that could be improved to produce valid tests (`features with potentially good mappings` row). It also counts the number of features with significant differences between vendors and the number of features with no or inconsistent vendor documentation.
-These numbers are collected separately for the various functional aspects of the [aforementioned taxonomy report](https://arxiv.org/abs/2002.02806); these functional aspects are also listed in the first column of the Summary Excel sheet.
-
-
 ### Migration guidance framework
 Table 8 and Table 9 of the paper present in their last rows summarizing statistics. These statistics are computed by the following two sheets for Table 8 and Table 9 respectively:
 
