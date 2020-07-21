@@ -105,11 +105,12 @@ The (color) legend is as follows:
   * Green color: There is an inconsistency between the vendor documentation and a valid test result
   * Bold font: A matching test produces invalid results, which are moreover inconsistent with the stated vendor documentation
   * (?,?) : There is no vendor documentation available
+  
+A [quantative analysis sheet for Table 8](QuantitativeAnalysisTable8.xlsx) allows to compute summarizing statistics, which are presented in the last row of Table 6. It also presents for each sub-aspect the number of features with matching tests, including those without valid test results but they can be potentially improved. These numbers allow thus to perform a cost-benefits analysis of improving existing test modules in order to achieve a better feature coverage. The main findings have been summarized in Section 3.10
+
 
 ### Migration guidance framework
-Table 8 and Table 9 of the paper present in their last rows summarizing statistics. These statistics are computed by the following two sheets for Table 8 and Table 9 respectively:
-
-A [quantative analysis sheet for Table 8](QuantitativeAnalysisTable8.xlsx) allows to compute summarizing statistics, which are presented in the last row of Table 6. It also presents for each sub-aspect the number of features with matching tests, including those without valid test results but they can be potentially improved. These numbers allow thus to perform a cost-benefits analysis of improving existing test modules in order to achieve a better feature coverage. The main findings have been summarized in Section 3.10
+Table 9 of the paper presents in its bottom rows summarizing statistics of the migration guidance framework for the studied vendors. These statistics are computed by following sheet:
 
 A [quantative analysis sheet for Table 9](QuantitativeAnalysisTable9.xlsx) allows to compute a summary of the migration guidance framework by answering questions about about the number of feature incompatibilities that belong to a particular class of migration ease. These classses of migration ease can be distinguished by a simple scoring system that indicates the ease of migration from a source vendor to a target vendor: 
   * 5: For all subsets of features supported by the source vendor, automated migration is possible
