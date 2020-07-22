@@ -1,6 +1,6 @@
 # A case study on feature incompatibilities between AKS, EKS and GKE
 
-This project containts supplementary material for the paper, "Eddy Truyen, Nane Kratzke, Dimitri Van Landuyt, Bert Lagaisse, Wouter Joosen, A case study on feature incompatibilities between Kubernetes vendors of the hosted product type"
+This project contains supplementary material for the paper, "Eddy Truyen, Nane Kratzke, Dimitri Van Landuyt, Bert Lagaisse, Wouter Joosen, A case study on feature incompatibilities between Kubernetes vendors of the hosted product type"
 
 The following sections provide technical background information about the goal of the paper, the data that has been collected for the case study, how that data has been collected, how it has been been processed and qualified and how the qualified data has been analyzed into the findings of the paper.
 
